@@ -14,10 +14,10 @@
 npm install we yo generator-wejs -g
 ```
 
-###Generate one project with yeoman:
+###Generate one blog project with yeoman:
 
 ```sh
-yo wejs:app
+yo wejs:blog
 ```
 
 ###Enter in your project folder
@@ -25,13 +25,7 @@ yo wejs:app
 ###Install npm dependencies:
 
 ```sh
-npm run deps
-```
-
-###Run install script:
-
-```sh
-we install -ru
+npm install
 ```
 
 ###Configure your database:
