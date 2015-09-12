@@ -1,9 +1,119 @@
 # We.js router
 
-We.js router is build with [express.js](http://expressjs.com/) and is compatible with all express.js modules
+We.js router is build with Express.js and is compatible with all Express.js modules
 
-## Default middlewares
+Plugin or project routes is set in plugin.js files.
+
+## Routes
 
 ### Simple route
 
+```js
+  // set plugin routes
+  plugin.setRoutes({
+    // homepage | default home page
+    'get /some-path': {
+      // route controller and action is required
+      controller: 'main',
+      action: 'index',
+      // // return user records
+      // // this is required for some responseTypes
+      model: 'user',
+
+      // // custom template for this route, by default will use the [controller]/[action] as default template
+      //template   : 'home/index',
+      
+      // // custom layout for this route
+      // layoutName : 'fullwidth',
+    
+      // // enforces a response format type
+      // responseType  : 'json',
+      
+      // // permission name
+      // // Set to true to skip ACL check
+      // permission    : 'find_user'     
+    }
+  });
+```
+
 ### Route resource
+
+Route resorce will generate all routes for one resource:
+
+```
+get /[name]/create
+get /[name]
+get /[name]/:[name]Id
+get /[name]/:[name]Id/edit
+post /[name]/:[name]Id/edit
+get /[name]/:[name]Id/delete
+post /[name]/:[name]Id/delete
+```
+
+##### Example:
+
+For set resource for admin users:
+
+```js
+  plugin.setResource({
+    
+    // // route name prefix, final route name will be admin.user
+    // namePrefix: 'admin.',
+    
+    // route name, this name is used for get controller and model and 
+    // in this example will use the user model and controller
+    name: 'user',
+    // route namespage
+    namespace: '/admin',
+    
+    // // custom template folder for templates in this resources
+    // templateFolderPrefix: 'admin/',
+    
+    // custom settings for findAll routes, this is optional
+    findAll: {
+      // search API converts query params to internal sequelize.where params     
+      search: {
+        id:  {
+          parser: 'equal',
+          target: {
+            type: 'field',
+            field: 'id'
+          }
+        },
+        email:  {
+          parser: 'equal',
+          target: {
+            type: 'field',
+            model: 'user',
+            field: 'email'
+          }
+        },
+        fullName:  {
+          parser: 'contains',
+          target: {
+            type: 'field',
+            model: 'user',
+            field: 'fullName'
+          }
+        }
+      }
+    }
+  });
+```
+
+Will generate:
+
+```
+get /admin/user/create
+get /admin/user
+get /admin/user/:userId
+get /admin/user/:userId/edit
+post /admin/user/:userId/edit
+get /admin/user/:userId/delete
+post /admin/user/:userId/delete
+
+```
+
+## Links:
+
+Express.js: http://expressjs.com/
