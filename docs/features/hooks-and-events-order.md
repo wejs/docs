@@ -1,4 +1,3 @@
-#Hooks and events order
 
 > A list of hooks and events ordered by execution
 
@@ -7,14 +6,14 @@
 this hooks and events run in we.js load ( bootstrap ) and startServer
 
 
-##### EVENT we:after:load:plugins
+#### EVENT we:after:load:plugins
 ```js
 we.events.on('we:after:load:plugins', function (we) {
   // your code here ...
 });
 ```
 
-##### HOOK we:check:requirements
+#### HOOK we:check:requirements
 ```js
 we.hooks.on('we:check:requirements', function (we, done) {
   // your code here ...
@@ -22,7 +21,7 @@ we.hooks.on('we:check:requirements', function (we, done) {
 });
 ```
 
-##### HOOK we:models:before:instance
+#### HOOK we:models:before:instance
 ```js
 we.hooks.on('we:models:before:instance', function(we, done) {
   // your code here ...
@@ -30,7 +29,7 @@ we.hooks.on('we:models:before:instance', function(we, done) {
 });
 ```
 
-##### HOOK we:models:set:joins
+#### HOOK we:models:set:joins
 ```js
 we.hooks.on('we:models:set:joins', function(we, done) {
   // your code here ...
@@ -38,35 +37,35 @@ we.hooks.on('we:models:set:joins', function(we, done) {
 });
 ```
 
-##### EVENT we:after:load:controllers
+#### EVENT we:after:load:controllers
 ```js
 we.events.on('we:after:load:controllers', function(we) {
   // your code here ...
 });
 ```
 
-##### EVENT we:after:load:express
+#### EVENT we:after:load:express
 ```js
 we.events.on('we:after:load:express', function(we) {
   // your code here ...
 });
 ```
 
-##### EVENT we:after:load:passport
+#### EVENT we:after:load:passport
 ```js
 we.events.on('we:after:load:passport', function(we) {
   // your code here ...
 });
 ```
 
-##### EVENT we:after:init:i18n
+#### EVENT we:after:init:i18n
 ```js
 we.events.on('we:after:init:i18n', function(we) {
   // your code here ...
 });
 ```
 
-##### HOOK we:create:default:folders
+#### HOOK we:create:default:folders
 ```js
 we.hooks.on('we:create:default:folders', function(we, done) {
   // your code here ...
@@ -74,7 +73,7 @@ we.hooks.on('we:create:default:folders', function(we, done) {
 });
 ```
 
-##### HOOK we:before:routes:bind
+#### HOOK we:before:routes:bind
 ```js
 we.hooks.on('we:before:routes:bind', function(we, done) {
   // your code here ...
@@ -82,7 +81,7 @@ we.hooks.on('we:before:routes:bind', function(we, done) {
 });
 ```
 
-##### HOOK we:after:routes:bind
+#### HOOK we:after:routes:bind
 ```js
 we.hooks.on('we:after:routes:bind', function(we, done) {
   // your code here ...
@@ -90,14 +89,14 @@ we.hooks.on('we:after:routes:bind', function(we, done) {
 });
 ```
 
-##### EVENT we:bootstrap:done
+#### EVENT we:bootstrap:done
 ```js
 we.events.on('we:bootstrap:done', function(we) {
   // your code here ...
 });
 ```
 
-##### HOOK we:server:before:start
+#### HOOK we:server:before:start
 ```js
 we.hooks.on('we:server:before:start', function(we, done) {
   // your code here ...
@@ -105,7 +104,7 @@ we.hooks.on('we:server:before:start', function(we, done) {
 });
 ```
 
-##### HOOK we:server:after:start
+#### HOOK we:server:after:start
 ```js
 we.hooks.on('we:server:after:start', function(we, done) {
   // your code here ...
@@ -116,7 +115,7 @@ we.hooks.on('we:server:after:start', function(we, done) {
 
 ## On server start
 
-##### HOOK we:server:before:start
+#### HOOK we:server:before:start
 ```js
 we.hooks.on('we:server:before:start', function(we, done) {
   // your code here ...
@@ -124,7 +123,7 @@ we.hooks.on('we:server:before:start', function(we, done) {
 });
 ```
 
-##### EVENT we:server:after:create
+#### EVENT we:server:after:create
 ```js
 we.events.on('we:server:after:create', function(data) {
   var we = data.we; // we.js
@@ -134,7 +133,7 @@ we.events.on('we:server:after:create', function(data) {
 });
 ```
 
-##### HOOK we:server:after:start
+#### HOOK we:server:after:start
 ```js
 we.hooks.on('we:server:after:start', function(we, done) {
   // your code here ...

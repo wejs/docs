@@ -17,7 +17,6 @@ We.js core have a administrative interface in **/admin/permissions** route for s
 
 ## ACL methods
 
-
 We.js ACL object is avaible at **we.acl** and user roles is avaible in **req.userRoleNames**
 
 ##### You can check user access with:
