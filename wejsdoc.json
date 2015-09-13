@@ -18,6 +18,10 @@
       "title": "Features",
       "file": "features/README.md",
       "pages": {
+        "cli": {
+          "title": "Command-line interface (CLI)",
+          "file": "features/cli.md"
+        },
         "configuration": {
           "title": "Configuration",
           "file": "features/configuration.md"
