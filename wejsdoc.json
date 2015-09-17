@@ -55,8 +55,12 @@
           "file": "features/logging.md"
         },
         "acl": {
-          "title": "Access Control Lists (ACLs)",
+          "title": "Access Control Lists (ACL)",
           "file": "features/acl.md"
+        },
+        "admin": {
+          "title": "Administrative interface",
+          "file": "features/admin-interfacel.md"
         }
       }
     }
