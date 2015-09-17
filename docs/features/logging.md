@@ -1,6 +1,6 @@
 # Logging
 
-> Log functions is avaible at ```we.log``` Powered by winston
+> Log functions is avaible at ```we.log``` powered by winston
 
 
 ```js
