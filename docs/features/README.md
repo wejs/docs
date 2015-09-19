@@ -1,16 +1,16 @@
-#Feature list:
+# Feature list:
 
-###Extension modules
+### Extension modules
 
 - Plugins
 - Themes
 - Compatible with express and socket.io middlewares
 
-###Code generators
+### Code generators
 
 - Generators ( with Yeoman ) | https://github.com/wejs/generator-wejs
 
-###API
+### API
 
 - Hooks
 - Events

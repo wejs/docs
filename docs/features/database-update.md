@@ -1,4 +1,4 @@
-#Plugin install and database update
+# Plugin install and database update
 
 ### Example file:
 
