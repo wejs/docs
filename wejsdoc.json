@@ -39,12 +39,12 @@
           "file": "features/controlers.md"
         },
         "customresponse": {
-          "title": "Custom responses",
+          "title": "Responses",
           "file": "features/customresponse.md"
         },
-        "fileuploads": {
-          "title": "File uploads",
-          "file": "features/fileuploads.md"
+        "responseformaters": {
+          "title": "Response formaters",
+          "file": "features/responseformaters.md"
         },
         "internationalization": {
           "title": "Internationalization",
@@ -61,6 +61,10 @@
         "admin": {
           "title": "Administrative interface",
           "file": "features/admin-interfacel.md"
+        },
+        "fileuploads": {
+          "title": "File uploads",
+          "file": "features/fileuploads.md"
         }
       }
     }
