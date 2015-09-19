@@ -1,3 +1,4 @@
+# Hooks and events
 
 > A list of hooks and events ordered by execution
 
