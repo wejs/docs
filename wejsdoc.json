@@ -60,7 +60,7 @@
         },
         "admin": {
           "title": "Administrative interface",
-          "file": "features/admin-interfacel.md"
+          "file": "features/admin-interface.md"
         },
         "fileuploads": {
           "title": "File uploads",
