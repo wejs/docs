@@ -8,7 +8,7 @@
 
 #### CRUD for users
 
-![User management image](http://wejs.org/public/project/images/admin-interface-user.png "User management")
+![User management image](http://wejs.org/public/project/images/admin-interface-user.png "User management" width="100%")
 
 #### CRUD for roles:
 ![Roles management image](http://wejs.org/public/project/images/admin-interface-role.png "Roles management")
