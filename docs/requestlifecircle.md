@@ -1,4 +1,4 @@
-#Request and response
+# Request and response
 
 We.js request and response have 3 steps: **Receive / parse**, **Process** and **Send** the response
 
