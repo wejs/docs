@@ -1,20 +1,20 @@
-# Admin Interface
+# Administrative interface
 
-> We.js have an administration interface which allow manage menus, users and everything you need in your app.
+> We.js have an administration interface which allow manage menus, users and others contents in your project.
 
 ### Users
 
 You have a list of users. You can create, edit and remove users:
 
-![alt text](https://github.com/wejs/docs/tree/master/docs/images/admin-interface-user.png "Admin Interface Users")
+![User management image](http://wejs.org/public/project/images/admin-interface-user.png "User management")
 
 You can setup user permission or user roles:
 
-![alt text](https://github.com/wejs/docs/tree/master/docs/images/admin-interface-permission.png "Admin Interface Permission")
+![Permission management image](http://wejs.org/public/project/images/admin-interface-permission.png "Permission management")
 
-![alt text](https://github.com/wejs/docs/tree/master/docs/images/admin-interface-role.png "Admin Interface Role")
+![Roles management image](http://wejs.org/public/project/images/admin-interface-role.png "Roles management")
 
 ### Menu
 
 Also you can create, edit and remove menu, submenus and links:
-![alt text](https://github.com/wejs/docs/tree/master/docs/images/admin-interface-role.png "Admin Interface Menu")
+![Menu management image](http://wejs.org/public/project/images/admin-interface-role.png "Menu management")
