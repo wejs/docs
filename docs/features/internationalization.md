@@ -6,23 +6,23 @@
 
 Example: https://github.com/wejs/site/blob/master/config/i18n.js
 
-##Usage
+## Usage
 
-####Global
+#### Global
 Default locale config
 ```js
 we.i18n.__('string');
 ```
 
-####Request localization
+#### Request localization
 Use user profile settings as i18n locale
 
-#####In controller:
+##### In controller:
 ```js
 req.__('string');
 ```
 
-#####In template
+##### In template
 ```hbs
 {{t 'string' variable1='' var2=''}}
 ```
