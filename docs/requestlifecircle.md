@@ -1,6 +1,6 @@
-#Request and response
+# Request and response order
 
-We.js request and response have 3 steps: **Receive / parse**, **Process** and **Send** the response
+We.js request and response have 3 steps: **receive/parse**, **process** and **send** the response
 
 - Receive the request
   - Set default vars
