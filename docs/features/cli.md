@@ -2,7 +2,7 @@
 
 > We.js cli is a util tool for manage and develop your we.js project
 
-To see all commands after install we clie tip `we` in your terninal
+To see all commands after install we cli tip `we` in your terninal
  
 ## Installation
 

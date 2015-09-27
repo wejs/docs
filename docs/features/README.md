@@ -10,13 +10,17 @@
 
 - Generators ( with Yeoman ) | https://github.com/wejs/generator-wejs
 
+### CLI
+
+- See https://github.com/wejs/we
+
 ### API
 
 - Hooks
 - Events
 - ACL
 - ORM ( with sequelize )
-- - Models
+  - Models
 - Build in grunt tasks
 - Email with templates
 - Configurable routes with suport to response type and file upload

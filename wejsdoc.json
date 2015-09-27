@@ -4,15 +4,35 @@
   "pages": {
     "getstarted": {
       "title": "Getting started",
-      "file": "getstarted/README.md"
+      "file": "getstarted/README.md",
+      "pages": {
+        "installation": {
+          "title": "Installation",
+          "file": "getstarted/installation.md"
+        },
+        "blog-project": {
+          "title": "Generate a blog project",
+          "file": "getstarted/generate-blog-project.md"
+        }
+      }
     },
-    "filestructure": {
-      "title": "File Structure",
-      "file": "filestructure/README.md"
-    },
-    "requestlifecircle": {
-      "title": "Request life circle",
-      "file": "requestlifecircle.md"
+    "forms": {
+      "title": "Forms",
+      "file": "forms/README.md",
+      "pages": {
+        "field-types": {
+          "title": "Field types",
+          "file": "forms/field-type.md"
+        },
+        "json": {
+          "title": "JSON form",
+          "file": "forms/json.md"
+        },
+        "model": {
+          "title": "Model form",
+          "file": "forms/model.md"
+        }
+      }
     },
     "features": {
       "title": "Features",
@@ -67,6 +87,15 @@
           "file": "features/fileuploads.md"
         }
       }
+    },
+
+    "filestructure": {
+      "title": "File Structure",
+      "file": "filestructure/README.md"
+    },
+    "requestlifecircle": {
+      "title": "Request middlewares order",
+      "file": "requestlifecircle.md"
     }
   }
 }
