@@ -2,6 +2,10 @@
   "title": "We.js documentation",
   "rootFolder": "docs",
   "pages": {
+    "about": {
+      "title": "About",
+      "file": "README.md"
+    },
     "getstarted": {
       "title": "Getting started",
       "file": "getstarted/README.md",
