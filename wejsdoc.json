@@ -92,7 +92,16 @@
         }
       }
     },
-
+    "theming": {
+      "title": "Theming",
+      "file": "theming/README.md",
+      "pages": {
+        "create-new-theme": {
+          "title": "Create new theme",
+          "file": "theming/create-new-theme.md"
+        }
+      }
+    },
     "filestructure": {
       "title": "File Structure",
       "file": "filestructure/README.md"
