@@ -4,7 +4,7 @@
 > Same as MVC controller
 > All controllers is a instance of Controller prototype: https://github.com/wejs/we-core/blob/master/lib/class/Controller.js
 
-> Functions defined in controller is called actions and every route access a controller.action and all actions works link express middlewares how receive res, res and next params
+> Functions defined in controller is called actions and every route access a controller.action and all actions works linke express middlewares how receive res, res and next params
 
 
 Example: https://github.com/wejs/we-core/blob/master/server/controllers/user.js

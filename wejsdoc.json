@@ -24,6 +24,54 @@
         }
       }
     },
+    "request-response": {
+      "title": "Request and response",
+      "file": "request-response/README.md",
+      "pages": {
+        "requestlifecircle": {
+          "title": "Request middlewares order",
+          "file": "request-response/requestlifecircle.md"
+        },
+        "routes": {
+          "title": "Routes",
+          "file": "request-response/routes.md"
+        },
+        "acl": {
+          "title": "Access Control Lists (ACL)",
+          "file": "request-response/acl.md"
+        },
+        "controllers": {
+          "title": "Controllers",
+          "file": "request-response/controlers.md"
+        },
+        "customresponse": {
+          "title": "Responses",
+          "file": "request-response/customresponse.md"
+        },
+        "responseformaters": {
+          "title": "Response formaters",
+          "file": "request-response/responseformaters.md"
+        },
+        "fileuploads": {
+          "title": "File uploads",
+          "file": "request-response/fileuploads.md"
+        }
+      }
+    },
+    "database": {
+      "title": "Database and ORM",
+      "file": "database/README.md",
+      "pages": {
+        "model": {
+          "title": "Model",
+          "file": "database/model.md"
+        },
+        "updates-migrations": {
+          "title": "Database updates",
+          "file": "database/updates-migrations.md"
+        }
+      }
+    },
     "forms": {
       "title": "Forms",
       "file": "forms/README.md",
@@ -39,6 +87,16 @@
         "model": {
           "title": "Model form",
           "file": "forms/model.md"
+        }
+      }
+    },
+    "theming": {
+      "title": "Theming",
+      "file": "theming/README.md",
+      "pages": {
+        "create-new-theme": {
+          "title": "Create new theme",
+          "file": "theming/create-new-theme.md"
         }
       }
     },
@@ -58,22 +116,6 @@
           "title": "Hooks and events",
           "file": "features/hooks-and-events-order.md"
         },
-        "routes": {
-          "title": "Routes",
-          "file": "features/routes.md"
-        },
-        "controllers": {
-          "title": "Controllers",
-          "file": "features/controlers.md"
-        },
-        "customresponse": {
-          "title": "Responses",
-          "file": "features/customresponse.md"
-        },
-        "responseformaters": {
-          "title": "Response formaters",
-          "file": "features/responseformaters.md"
-        },
         "internationalization": {
           "title": "Internationalization",
           "file": "features/internationalization.md"
@@ -82,37 +124,15 @@
           "title": "Logging",
           "file": "features/logging.md"
         },
-        "acl": {
-          "title": "Access Control Lists (ACL)",
-          "file": "features/acl.md"
-        },
         "admin": {
           "title": "Administrative interface",
           "file": "features/admin-interface.md"
-        },
-        "fileuploads": {
-          "title": "File uploads",
-          "file": "features/fileuploads.md"
-        }
-      }
-    },
-    "theming": {
-      "title": "Theming",
-      "file": "theming/README.md",
-      "pages": {
-        "create-new-theme": {
-          "title": "Create new theme",
-          "file": "theming/create-new-theme.md"
         }
       }
     },
     "filestructure": {
       "title": "File Structure",
       "file": "filestructure/README.md"
-    },
-    "requestlifecircle": {
-      "title": "Request middlewares order",
-      "file": "requestlifecircle.md"
     }
   }
 }
