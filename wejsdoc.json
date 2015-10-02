@@ -36,10 +36,6 @@
           "title": "Routes",
           "file": "request-response/routes.md"
         },
-        "acl": {
-          "title": "Access Control Lists (ACL)",
-          "file": "request-response/acl.md"
-        },
         "controllers": {
           "title": "Controllers",
           "file": "request-response/controlers.md"
@@ -90,6 +86,24 @@
         }
       }
     },
+    "cli": {
+      "title": "Command-line interface (CLI)",
+      "file": "cli/README.md"
+    },
+    "acl": {
+      "title": "Access Control Lists (ACL)",
+      "file": "acl/README.md"
+    },
+    "plugin": {
+      "title": "Plugins",
+      "file": "plugin/README.md",
+      "pages": {
+        "create-new-plugin": {
+          "title": "Create new plugin",
+          "file": "plugin/create-new-plugin.md"
+        }
+      }
+    },
     "theming": {
       "title": "Theming",
       "file": "theming/README.md",
@@ -101,13 +115,9 @@
       }
     },
     "features": {
-      "title": "Features",
+      "title": "Others features",
       "file": "features/README.md",
       "pages": {
-        "cli": {
-          "title": "Command-line interface (CLI)",
-          "file": "features/cli.md"
-        },
         "configuration": {
           "title": "Configuration",
           "file": "features/configuration.md"
@@ -127,6 +137,10 @@
         "admin": {
           "title": "Administrative interface",
           "file": "features/admin-interface.md"
+        },
+        "gulp-tasks": {
+          "title": "Gulp tasks",
+          "file": "features/gulp-tasks.md"
         }
       }
     },
