@@ -130,6 +130,14 @@
         }
       }
     },
+    "testing": {
+      "title": "Testing",
+      "file": "testing/README.md"
+    },
+    "security": {
+      "title": "Security",
+      "file": "security/README.md"
+    },
     "filestructure": {
       "title": "File Structure",
       "file": "filestructure/README.md"
