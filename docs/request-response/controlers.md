@@ -6,5 +6,7 @@
 
 > Functions defined in controller is called actions and every route access a controller.action and all actions works linke express middlewares how receive res, res and next params
 
+> Single record routes have the record preloaded in context middleware and is avaible in controller as res.locals.record
+
 
 Example: https://github.com/wejs/we-core/blob/master/server/controllers/user.js
