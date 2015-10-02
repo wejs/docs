@@ -17,6 +17,10 @@
         "blog-project": {
           "title": "Generate a blog project",
           "file": "getstarted/generate-blog-project.md"
+        },
+        "create-a-api": {
+          "title": "Create a simple resource API",
+          "file": "getstarted/create-a-api.md"
         }
       }
     },
