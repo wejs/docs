@@ -48,3 +48,20 @@ README.md
 package.json
 plugin.js ( you plugin file )
 ```
+
+## Theme file structure
+```
+files/ ( files folder )
+files/public/ ( public folder )
+files/public/scripts.js ( default theme script folder )
+files/public/style.css ( default theme css file )
+templates/ ( server side templates )
+templates/email/ ( nodemailer templates )
+templates/server/ (server side templates)
+templates/server/html.hbs (html structure file)
+templates/server/partials/ (default partials folder)
+templates/server/layouts/ (default layouts folder)
+README.md
+package.json
+theme.js ( you theme config file )
+```
