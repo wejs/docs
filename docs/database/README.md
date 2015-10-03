@@ -13,6 +13,8 @@ In project execution default connection is avaible at `we.db.defaultConnection` 
 By default all projects have 3 database connection configurations how is selected by enviroment.
 Ex: if you are in dev enviroment it will start the default database connections with we.config.database.dev configuration
 
+For all options see: http://sequelize.readthedocs.org/en/latest/api/sequelize/#class-sequelize
+
 file: `config/local.js`
 
 ```js
