@@ -1,6 +1,8 @@
 # We.js theming
 
 > Change the visual and structure of your project in html reponses (default reponse)
+> 
+> Themes can override default plugin templates to change html structures or classes
 
 By default we.js have 2 themes, the `app` and `admin` theme.
 
