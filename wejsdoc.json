@@ -111,6 +111,10 @@
         "create-new-theme": {
           "title": "Create new theme",
           "file": "theming/create-new-theme.md"
+        },
+        "helpers": {
+          "title": "helpers",
+          "file": "theming/helpers.md"
         }
       }
     },
