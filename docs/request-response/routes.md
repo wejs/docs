@@ -70,8 +70,11 @@ get /[name]
 get /[name]/:[name]Id
 get /[name]/:[name]Id/edit
 post /[name]/:[name]Id/edit
+put /[name]/:[name]Id
+patch /[name]/:[name]Id
 get /[name]/:[name]Id/delete
 post /[name]/:[name]Id/delete
+delete /[name]/:[name]Id
 ```
 
 ##### Example:
@@ -156,9 +159,11 @@ get /admin/user
 get /admin/user/:userId
 get /admin/user/:userId/edit
 post /admin/user/:userId/edit
+put /admin/user/:userId
+patch /admin/user/:userId
 get /admin/user/:userId/delete
 post /admin/user/:userId/delete
-
+delete /admin/user/:userId
 ```
 
 ## Links:
