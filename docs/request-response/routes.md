@@ -8,6 +8,28 @@ Plugin or project routes is set in plugin.js files.
 
 ### Simple route
 
+We have 2 forms to set routes in we.js:
+
+#### set with server/routes/*.json file
+
+Create a `server/routes/*.json` file inside your project or plugin then add your route as object like:
+
+```json
+{
+  // homepage | default home page
+  'get /some-path': {
+    // route controller and action is required
+    controller: 'main',
+    action: 'index',
+    // // return user records
+    // // this is required for some responseTypes
+    model: 'user',
+  }
+}
+```
+
+#### set inside one plugin.js file:
+
 ```js
   // set plugin routes
   plugin.setRoutes({
@@ -38,6 +60,8 @@ Plugin or project routes is set in plugin.js files.
 
 ### Route resource
 
+#### Set inside one plugin.js file
+
 Route resorce will generate all routes for one resource:
 
 ```
@@ -53,6 +77,29 @@ post /[name]/:[name]Id/delete
 ##### Example:
 
 For set resource for admin users:
+
+###### With server/resources/*.json
+
+file `server/resources/admin.user.json`:
+
+```json
+{
+  "name": "user",
+  "findAll": {
+    "search": {
+      "q": {
+        "parser": "userSearchQuery",
+        "target": {
+          "type": "field",
+          "field": "id"
+        }
+      }
+    }
+  }
+}
+```
+
+###### Or inside your plugin.js file:
 
 ```js
   plugin.setResource({
