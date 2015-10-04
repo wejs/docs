@@ -112,9 +112,17 @@
           "title": "Create new theme",
           "file": "theming/create-new-theme.md"
         },
+        "install-update": {
+          "title": "Install and update",
+          "file": "theming/install-update.md"
+        },
         "helpers": {
           "title": "helpers",
           "file": "theming/helpers.md"
+        },
+        "widgets": {
+          "title": "Widget",
+          "file": "theming/widget.md"
         }
       }
     },
@@ -147,6 +155,10 @@
           "file": "features/gulp-tasks.md"
         }
       }
+    },
+    "cron": {
+      "title": "Cron tasks",
+      "file": "cron/README.md"
     },
     "testing": {
       "title": "Testing",
