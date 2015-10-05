@@ -10,7 +10,7 @@
 
 ## Modules
 
-We.js hasve suport for plugins, themes and npm modules. 
+We.js have suport for plugins, themes and npm modules. 
 Split yout project into small plugins for reuse and sharing
 
 Build-in database updates, user permissions, administrative interface, REST API and more ...
