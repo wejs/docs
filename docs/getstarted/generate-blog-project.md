@@ -5,10 +5,26 @@
 ```sh
 yo wejs:blog
 ```
+We.js ask you for the name of your project
+
+```sh
+     _-----_
+    |       |    .--------------------------.
+    |--(o)--|    |     We.js simple blog    |
+   `---------´   |  project generator! |o/  |
+    ( _´U`_ )    |            |o/           |
+    /___A___\    |                          |
+     |  ~  |     |   generate one testable  |
+   __'.___.'__   |      we.js project!      |
+ ´   `  |° ´ Y ` '--------------------------'
+
+? Your blog name: blogname
+```
 
 ### Enter in your project folder
-...
-
+```sh
+cd we-project-blog-blogname
+```
 ### Install npm dependencies:
 
 ```sh
