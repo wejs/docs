@@ -4,6 +4,16 @@
 
 Widgets may be created in plugins or projects
 
+All widgets is a instance of: https://github.com/wejs/we-core/blob/master/lib/class/Widget.js
+
+## Widget file structure:
+
+```
+form.hbs // custom form
+view.hbs // widget html
+ìndex.js // controller function, use it to override default widget functions
+```
+
 ## How create a widget
 With yeoman generator-wejs
 
