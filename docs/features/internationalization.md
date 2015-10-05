@@ -1,6 +1,6 @@
 # i18n
 
->We.js have node i18n module and you can ise it as:
+>We.js have the i18n module ready for use and with suport to default locales in plugins
 
 ## How to configure
 
@@ -25,4 +25,12 @@ req.__('string');
 ##### In template
 ```hbs
 {{t 'string' variable1='' var2=''}}
+```
+
+## How to load default locales?
+
+Ẁith we.js cli:
+
+```sh
+we loadLocales
 ```
