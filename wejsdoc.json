@@ -21,6 +21,10 @@
         "create-an-api": {
           "title": "Create a simple resource API",
           "file": "getstarted/create-an-api.md"
+        },
+        "core-concepts": {
+          "title": "Core Concepts",
+          "file": "getstarted/core-concepts.md"
         }
       }
     },
