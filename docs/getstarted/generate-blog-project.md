@@ -6,6 +6,8 @@
 yo wejs:blog
 ```
 
+Or if you whant something simple its possible to make a simple app with `yo wejs:app` 
+
 ### Enter in your project folder
 ...
 

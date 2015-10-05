@@ -71,7 +71,7 @@ get /post/:postId/delete
 post /post/:postId/delete
 ```
 
-## DONE 
+### Done 
 
 Now to see your resource start the project with `npm run dev` , open your browser and access `/post/create` to access your form and `/post` to access your list;
 
