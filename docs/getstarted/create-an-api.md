@@ -12,7 +12,7 @@ With yeoman!
 ```sh
 yo wejs:model
 ```
-Then tip `post` as model name
+Then type `post` as model name
 
 2- Set your model attributes in model.definition
 
@@ -44,7 +44,7 @@ Create the file `server/controllers/post.js` with:
 module.exports = {};
 ```
 
-All controllers are a instance of: https://github.com/wejs/we-core/blob/master/lib/class/Controller.js
+All controllers are an instance of: https://github.com/wejs/we-core/blob/master/lib/class/Controller.js
 
 And have all default controller actions.
 
