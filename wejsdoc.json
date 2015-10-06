@@ -69,6 +69,10 @@
         "updates-migrations": {
           "title": "Database updates",
           "file": "database/updates-migrations.md"
+        },
+        "session-store": {
+          "title": "Session store",
+          "file": "database/session-store.md"
         }
       }
     },
