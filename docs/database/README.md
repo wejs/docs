@@ -8,7 +8,7 @@
 
 ## Important variables
 
-In project execution default connection is avaible at `we.db.defaultConnection`and all models is avaible in `we.db.models`
+In project execution default connection is avaible at `we.db.defaultConnection` and all models is avaible in `we.db.models`
 
 ## Database configuration
 
