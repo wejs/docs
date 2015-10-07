@@ -1,6 +1,6 @@
 # Template helpers
 
-> helpers is handlebars functions how allow to do save logic in functions and reuse in templates
+> Helpers is a handlebars functions which allow to do some logic in functions and reuse in templates
 
 See more information about handlebars and helpers in: http://handlebarsjs.com/
 
