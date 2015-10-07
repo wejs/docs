@@ -10,9 +10,9 @@ For ACL see: http://wejs.org/docs/we/request-response.acl
 
 > Configured npm `sanitize-html` module 
 > 
-> **Automatically sanitize all model attributes**, if you dont need to sanitize one model add the `skipSanitizer: true` in your model field attribute
+> **Automatically sanitize all model attributes**, if you don't need to sanitize one model add the `skipSanitizer: true` in your model field attribute
 
-In run time the sanitizer is avaible at `we.sanitizer` 
+In runtime the sanitizer is avaible at `we.sanitizer` 
    
 ### Methods
 

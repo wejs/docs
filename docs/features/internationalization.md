@@ -1,6 +1,6 @@
 # i18n
 
->We.js have the i18n module ready for use and with suport to default locales in plugins
+>We.js have the i18n module ready to use which support multi language. By default We.js run based on locales folder on we-plugin.
 
 ## How to configure
 

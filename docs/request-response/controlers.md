@@ -1,10 +1,10 @@
 # Controllers
 
-> Controllers is where you get data from models and run the response function for send this data to user in many formats
+> Controllers are where you get data from models and run response functions for send data to user in differents formats.
 > Same as MVC controller
-> All controllers is a instance of Controller prototype: https://github.com/wejs/we-core/blob/master/lib/class/Controller.js
+> All controllers is an instance of Controller prototype: https://github.com/wejs/we-core/blob/master/lib/class/Controller.js
 
-> Functions defined in controller is called actions and every route access a controller.action and all actions works linke express middlewares how receive res, res and next params
+> Functions defined in controller is called actions and every route access a controller.action and all actions works like express middlewares which recieves resquest, response and next params.
 
 > Single record routes have the record preloaded in context middleware and is avaible in controller as res.locals.record
 

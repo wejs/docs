@@ -1,18 +1,18 @@
 # Responses
 
-> Custom response functions extends express.js response object (res) with extra functions like res.ok or res.updated
+> Custom responses functions extends express.js response object (res) with some extras functions like res.ok, res.updated.
 
 ## Core responses:
 
 ### res.ok() send a 200 response
-Use for simple success responses or find and findAll responses
+Use to send simple success responses or find and findAll responses
 
 ```js
 res.ok();
 ```
 
 ### res.notFound send a 404 response
-Use for show the not found page
+Use to show the not found page
 
 ```js
 res.notFound(msg);
@@ -20,21 +20,21 @@ res.notFound(msg);
 
 
 ### res.forbidden send a 403 response
-Use for send the forbidden page
+Use to send the forbidden page
 
 ```js
 res.forbidden(msg);
 ```
 
 ### res.serverError send a 403 response
-Use for send the error page
+Use to send the error page
 
 ```js
 res.serverError(err);
 ```
 
 ### res.badRequest send a 400 response
-Use for send the bad request page
+Use to send the bad request page
 
 ```js
 res.badRequest(msg);

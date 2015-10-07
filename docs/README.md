@@ -9,6 +9,6 @@
 ## Modules
 
 We.js have suport for plugins, themes and npm modules. 
-Split yout project into small plugins for reuse and sharing
+Split your project into small plugins for reuse and sharing
 
 Build-in database updates, user permissions, administrative interface, REST API and more ...

@@ -8,10 +8,10 @@ The plugin main file is `plugin.js`
 
 ## How to install one plugin?
 
-1. Find it on we.js site on npm with `npm searh we-plugin-` or in github search
-2. Install it with `npm install [pluginName]` like `npm install we-plugin-form`
+1. Find plugin in we.js site, npm site, github search or with npm command like:  `npm search we-plugin-`
+2. Install with `npm install [pluginName]` like `npm install we-plugin-form`
+3. First time when you run your project, We.js will install all we-plugins on project.
 3. Start your project and in first project run after install the plugin the we.js will register this plugins and the plugin version for use in database updates.
-
 
 ## How to update?
 
