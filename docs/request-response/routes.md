@@ -62,7 +62,7 @@ Create a `server/routes/*.json` file inside your project or plugin then add your
 
 #### Set inside one plugin.js file
 
-Route resorce will generate all routes for one resource:
+Route resource will generate all routes for one resource:
 
 ```
 get /[name]/create
@@ -79,7 +79,7 @@ delete /[name]/:[name]Id
 
 ##### Example:
 
-For set resource for admin users:
+To set resource for admin users:
 
 ###### With server/resources/*.json
 

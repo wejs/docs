@@ -6,7 +6,7 @@
 
 # Build task
 
-Generate contat and minify your project assets and prepare assets files to use in production enviroment
+Generate concat and minify your project assets and prepare assets files to use in production enviroment
 
 ```sh
 npm run build

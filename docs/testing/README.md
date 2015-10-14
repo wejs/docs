@@ -14,7 +14,7 @@ npm test
 
 ### Run selected tests
 
-For run selected tests use mocha grep command like: 
+To run selected tests use mocha grep command like: 
 
 Run only tests with `userFeature` text:
 
