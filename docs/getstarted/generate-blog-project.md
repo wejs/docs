@@ -43,3 +43,14 @@ Edit ```config/local.js``` file and change database configuration to your databa
 npm run dev
 ```
 
+
+### For load default locales run:
+
+This will load all default locales from plugins and save this locales in your project.
+
+```sh
+we loadLocales
+```
+
+
+
