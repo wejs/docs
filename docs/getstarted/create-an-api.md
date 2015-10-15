@@ -2,9 +2,24 @@
 
 > For create a We.js resource API in your project you need to create one model, one controller and set the resouce
 
+> Lets see how to make a resource with generator-wejs or step by step:
+
 ## Lets make the `post` resource
 
-### 1 Create a model
+### 1- With resource generator-wejs
+
+This will generate the controller, model and resource route.
+
+Inside your project or plugin:
+```sh
+yo wejs:resource post
+```
+
+And done!
+
+### 2- Step by step without the generator-wejs
+
+#### Create a model
 
 With yeoman!
 
@@ -36,7 +51,7 @@ Open the model file in your editor `server/models/post.js` and add:
 
 save your file
 
-### 2 Create a controller
+#### 2 Create a controller
 
 Create the file `server/controllers/post.js` with:
 
@@ -48,7 +63,7 @@ All controllers are an instance of: https://github.com/wejs/we-core/blob/master/
 
 And have all default controller actions.
 
-### 3 Set route resource
+#### 3 Set route resource
 
 Open the `plugin.js`file inside your project folder and add:
 
