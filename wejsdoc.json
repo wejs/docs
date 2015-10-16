@@ -10,6 +10,10 @@
       "title": "Getting started",
       "file": "getstarted/README.md",
       "pages": {
+        "core-concepts": {
+          "title": "Core Concepts",
+          "file": "getstarted/core-concepts.md"
+        },
         "installation": {
           "title": "Installation",
           "file": "getstarted/installation.md"
@@ -21,10 +25,6 @@
         "create-an-api": {
           "title": "Create a simple resource API",
           "file": "getstarted/create-an-api.md"
-        },
-        "core-concepts": {
-          "title": "Core Concepts",
-          "file": "getstarted/core-concepts.md"
         }
       }
     },
