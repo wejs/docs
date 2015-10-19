@@ -1,6 +1,6 @@
 # Database and ORM and session database
 
-> We.js use Sequelize as Object-relational mapping (ORM) with extra steps for allow model extensions in plugins
+> We.js use Sequelize as Object-relational mapping (ORM) with extra steps for allowing model extensions in plugins
 
 > Current We.js database feature only suport SQL databases ('mysql'|'mariadb'|'sqlite'|'postgres'|'mssql') 
 
@@ -12,14 +12,14 @@ In project execution default connection is avaible at `we.db.defaultConnection` 
 
 ## Database configuration
 
-By default all projects have 3 database connection configurations how is selected by enviroment.
+By default all projects there are three databases connection configurations that is selected by environment.
 Ex: if you are in dev enviroment it will start the default database connections with we.config.database.dev configuration
 
 For all options see: http://sequelize.readthedocs.org/en/latest/api/sequelize/#class-sequelize
 
 ### Mysql
 
-Build in mysql suport and the session configuration is automatically set with database settings and the default configuration for mysql is:
+Build in mysql support and the session configuration is automatically set with database settings and the default configuration for mysql is:
 
 file: `config/local.js`
 
