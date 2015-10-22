@@ -12,6 +12,7 @@ In your project:
 1. Install you session store npm module.
 2. Configure in your **config/local.js** project configuration file:
 file: config/local.js
+
 ```js
 // require the session store npm module
 var SessionStore = require('express-mysql-session');
@@ -34,3 +35,4 @@ module.exports: {
     // -- others configs
 }
 ```
+
