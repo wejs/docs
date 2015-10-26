@@ -35,6 +35,6 @@ npm install we yo generator-wejs -g
 
 # Know problems
 
-- `npm run [command]` and `npm test` dont works then use the command `node ./app.js`
+- `npm run [command]` and `npm test` dont works then use the command `node ./app.js` for run your app
 - if return network error in `npm install` command, delete the node_modules folder and reinstall
 - if you have a file open in your editor from any submodule or linked module the npm link or npm install commands will return permissions error
