@@ -12,7 +12,7 @@ If the project have a plugin.js file it will be load as plugin after all plugins
 
 ## Controller
 
-Get and process data from database and send to response formatter with response methods.
+Get data from database or other provider, process and send to response formatter with response methods.
 
 ## Model
 
