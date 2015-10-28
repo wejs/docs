@@ -29,7 +29,7 @@
       }
     },
     "request-response": {
-      "title": "Request and response",
+      "title": "Router, request and response",
       "file": "request-response/README.md",
       "pages": {
         "requestlifecircle": {
