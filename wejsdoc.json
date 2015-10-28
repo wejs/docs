@@ -52,6 +52,10 @@
           "title": "Response formaters",
           "file": "request-response/responseformaters.md"
         },
+        "url-alias": {
+          "title": "Url Alias",
+          "file": "request-response/url-alias.md"
+        },
         "fileuploads": {
           "title": "File uploads",
           "file": "request-response/fileuploads.md"
