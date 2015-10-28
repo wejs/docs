@@ -19,7 +19,7 @@ Theme structure have one `html.hbs` and multiple `layouts` with `regions`
 The file html.hbs is required in all themes and need be in `templates/server/html.hbs` 
 Inside the html.hbs you will add the <html>, <head> and <body> tags the assets helpers.
 
-#### Assets helpers
+#### Asset helpers
 
 Template helpers where you will add 
 ```hbs
