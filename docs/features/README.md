@@ -14,16 +14,17 @@
 
 - See https://github.com/wejs/we
 
-### API
+### Core
 
-- Hooks
-- Events
-- ACL
+- Hooks: async
+- Events: sync
+- Access controll list (ACL)
 - ORM ( with sequelize )
   - Models
-- Build in grunt tasks
-- Email with templates
-- Configurable routes with suport to response type and file upload
+- Default in gulp tasks
+- Email with templates and localization
+- Configurable routes with suport to response type, formaters and file upload
 - Controllers
-- Internationalization
-- Socket.io
+- Internationalization (node i18n)
+- Layout, regions and Widgets 
+- URL alias
