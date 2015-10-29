@@ -10,7 +10,7 @@ code: https://github.com/wejs/we-core/blob/master/lib/router/alias.js
 
 This method rund on record create and update and needs to return a object with **alias** and **target** attributes.
 
-Set **urlAlias** method in your **model options** like the we.js core user model in https://github.com/wejs/we-core/blob/master/server/models/user.js#L206
+Set **urlAlias** method in your **model options.classMethods** like the we.js core user model in https://github.com/wejs/we-core/blob/master/server/models/user.js#L206
 
 Example:
 
@@ -18,12 +18,14 @@ Example:
   // --- your modele file ...
 
       options: {
-        // returns an url alias
-        urlAlias: function urlAlias(record) {
-          return {
-            alias: '/'+ we.i18n.__('user') +'/' + record.id + '-'+  we.utils
-              .string( record.username || record.displayName ).slugify().s,
-            target: '/user/' + record.id,
+        classMethods: {
+          // returns an url alias
+          urlAlias: function urlAlias(record) {
+            return {
+              alias: '/'+ we.i18n.__('user') +'/' + record.id + '-'+  we.utils
+                .string( record.username || record.displayName ).slugify().s,
+              target: '/user/' + record.id,
+            }
           }
         }
       },
