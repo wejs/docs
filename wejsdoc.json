@@ -28,6 +28,10 @@
         }
       }
     },
+    "configuration": {
+      "title": "Configuration",
+      "file": "features/configuration.md"
+    },
     "request-response": {
       "title": "Request and response",
       "file": "request-response/README.md",
@@ -102,6 +106,10 @@
       "title": "Access Control Lists (ACL)",
       "file": "acl/README.md"
     },
+    "hooks-events": {
+      "title": "Hooks and events",
+      "file": "features/hooks-and-events-order.md"
+    },
     "plugin": {
       "title": "Plugins",
       "file": "plugin/README.md",
@@ -134,35 +142,21 @@
         }
       }
     },
-    "features": {
-      "title": "Others features",
-      "file": "features/README.md",
-      "pages": {
-        "configuration": {
-          "title": "Configuration",
-          "file": "features/configuration.md"
-        },
-        "hooks-events": {
-          "title": "Hooks and events",
-          "file": "features/hooks-and-events-order.md"
-        },
-        "internationalization": {
-          "title": "Internationalization",
-          "file": "features/internationalization.md"
-        },
-        "logging": {
-          "title": "Logging",
-          "file": "features/logging.md"
-        },
-        "admin": {
-          "title": "Administrative interface",
-          "file": "features/admin-interface.md"
-        },
-        "gulp-tasks": {
-          "title": "Gulp tasks",
-          "file": "features/gulp-tasks.md"
-        }
-      }
+    "internationalization": {
+      "title": "Internationalization",
+      "file": "features/internationalization.md"
+    },
+    "logging": {
+      "title": "Logging",
+      "file": "features/logging.md"
+    },
+    "admin": {
+      "title": "Administrative interface",
+      "file": "features/admin-interface.md"
+    },
+    "gulp-tasks": {
+      "title": "Gulp tasks",
+      "file": "features/gulp-tasks.md"
     },
     "cron": {
       "title": "Cron tasks",
