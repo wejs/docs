@@ -10,9 +10,15 @@ Use plugin to add new features for your project or change default features from 
 
 If the project have a plugin.js file it will be load as plugin after all plugins then is a good place the override or change plugin features.
 
+## Context Loader
+
+Preload data in res.locals related to current request like record in findOne, edit or update actions how are avaible in res.locals.data.
+
 ## Controller
 
-Get and process data from database and send to response formatter with response methods.
+Get data from database or other provider, process and send to response formatter with response methods.
+
+Every controller is a instance of we.js [Controller class](https://github.com/wejs/we-core/blob/master/lib/class/Controller.js) and functions in controller is called actions how work like express.js middlewares how receive req, res and next arguments.
 
 ## Model
 

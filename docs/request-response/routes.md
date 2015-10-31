@@ -14,7 +14,7 @@ We have 2 forms to set routes in we.js:
 
 Create a `server/routes/*.json` file inside your project or plugin then add your route as object like:
 
-```json
+```js
 {
   // homepage | default home page
   'get /some-path': {

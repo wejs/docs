@@ -21,5 +21,6 @@ npm install we yo generator-wejs -g
 
 ### Others links:
 
-How to install we.js in ubuntu 15.04: https://gist.github.com/albertosouza/8af1c779253fce5c3988
+- How to install in **Windows 10**: https://github.com/wejs/docs/blob/master/docs/getstarted/installation-windows-10.md 
+- How to install we.js in **ubuntu 15.04**: https://gist.github.com/albertosouza/8af1c779253fce5c3988
 

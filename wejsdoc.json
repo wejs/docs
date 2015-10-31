@@ -33,7 +33,7 @@
       "file": "features/configuration.md"
     },
     "request-response": {
-      "title": "Request and response",
+      "title": "Router, request and response",
       "file": "request-response/README.md",
       "pages": {
         "requestlifecircle": {
@@ -55,6 +55,10 @@
         "responseformaters": {
           "title": "Response formaters",
           "file": "request-response/responseformaters.md"
+        },
+        "url-alias": {
+          "title": "Url Alias",
+          "file": "request-response/url-alias.md"
         },
         "fileuploads": {
           "title": "File uploads",

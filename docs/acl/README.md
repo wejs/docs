@@ -11,6 +11,25 @@
   2. Load current user roles
   3. Check if user roles have access to current route and send a 500 or continue with the request to controller. 
 
+## Configuration
+
+ACL feature is disabled by default in your config/local.js file for fast project develo.pment
+
+file: *config/locals.js*
+```js
+module.exports: {
+  // ... others project configs ...
+  
+  // acl configs
+  acl: {
+    // set to false for enable acl feature
+    disabled: true 
+  },
+  
+  // ... others project configs ...
+};
+```
+
 ## Permission management
 
 We.js core have a administrative interface in **/admin/permissions** route for set role permissions and **admin/user/:userId/roles** for set user roles
