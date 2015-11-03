@@ -118,6 +118,10 @@
       "title": "Plugins",
       "file": "plugin/README.md",
       "pages": {
+        "style-sheet_client-javascript": {
+          "title": "Style sheet and Javascript",
+          "file": "plugin/style-sheet_client-javascript.md"
+        },
         "create-new-plugin": {
           "title": "Create new plugin",
           "file": "plugin/create-new-plugin.md"

@@ -19,4 +19,3 @@ npm install
 ### Read and follow your generated theme README.md
 
 **file:** `[theme folder]/README.md`
-

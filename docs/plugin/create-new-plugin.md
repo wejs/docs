@@ -1,6 +1,6 @@
-# Create a new plugin
+# Create new plugin
 
-> We.js yeoman generator can generate one plugin structure
+> Powered by We.js yeoman generator 
 
 ### Generate the plugin structure
 
@@ -11,7 +11,7 @@ yo wejs:plugin
 
 and the yeoman will generate all plugin structure.
 
-### Install dependencies
+### Install dev dependencies
 
 Enter in plugin folder and tip: 
 
