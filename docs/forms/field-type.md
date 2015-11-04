@@ -2,6 +2,8 @@
 
 > Reusable templates for build form field types
 
+Avaible with [we-plugin-form](https://github.com/wejs/we-plugin-form)
+
 ### How to register:
 
 Form field types is simple templates added in `server/templates/forms/` folder
@@ -30,6 +32,14 @@ module.exports = function TodoModel(we) {
 }
 ```
 
+## Avaible variables in form field template
+
+- locals: same as res.locals
+- values: object with filled values, use for edit or error pages
+- fieldOptions: field configurations from model or jdon form field
+
+for see others values use the `{{log this}}` helper in your template
+
 ## Links
 
-- All core form fields see https://github.com/wejs/we-plugin-form/tree/master/server/templates/forms 
+- Core form fields: https://github.com/wejs/we-plugin-form/tree/master/server/templates/forms 
