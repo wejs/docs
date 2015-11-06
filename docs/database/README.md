@@ -1,4 +1,4 @@
-# Database and ORM and session database
+# Database, ORM and sessions
 
 > We.js use Sequelize as Object-relational mapping (ORM) with extra steps for allowing model extensions in plugins
 
