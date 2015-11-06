@@ -67,7 +67,7 @@
       }
     },
     "database": {
-      "title": "Database and ORM",
+      "title": "Database, ORM and sessions",
       "file": "database/README.md",
       "pages": {
         "model": {
