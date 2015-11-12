@@ -2,7 +2,7 @@
 
 ## Example:
 
-Lets configure the virtual host for **http://example.com** where then We.js app is runnig in **127.0.0.1:6000** inside same server in folder **/var/wejs/apps/example.com**
+Lets configure the virtual host for **http://example.com** where then We.js app is runnig in **127.0.0.1:6000** inside same server in **/var/wejs/apps/example.com** folder
 
 ```
 # the IP(s) on which your We.js server is running. in this example is host 127.0.0.1 and port 6000.
