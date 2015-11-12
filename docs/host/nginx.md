@@ -19,7 +19,7 @@ server {
     access_log /var/log/nginx/example.com.log;
     
     ##
-    ### Static file configuration for project in local
+    ### Static file configuration for project in localhost
     ##
     
     ##
