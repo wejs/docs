@@ -6,7 +6,7 @@
 > 
 > We.js theme is npm modules
 
-By default we.js has 2 themes, the `app` and `admin` theme.
+By default we.js has two kinds of themes, the `app` and `admin` theme.
 
 The admin theme will be used in /admin pages and the app theme will be used in other routes
 
