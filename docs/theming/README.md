@@ -6,18 +6,18 @@
 > 
 > We.js theme is a npm module
 
-By default we.js projects have 2 themes, the **app** and **admin** theme.
+By default we.js has two kinds of themes, the **app** and **admin** theme.
 
-The admin theme will be used in /admin pages and the app theme will be used in others routes
+The admin theme will be used in /admin pages and the app theme will be used in other routes
 
 ## HTML, layouts and regions
 
-Theme structure have one **html.hbs** and multiple **layouts** with **regions**
+Theme structure has one `html.hbs` and multiple `layouts` with `regions`
 
 ### HTML
 
-The file html.hbs is required in all themes and need be in **templates/server/html.hbs** 
-Inside the html.hbs you will add the `<html>`, `<head>`, `<body>` and the assets helpers.
+The file html.hbs is required in all themes and need to be in **templates/server/html.hbs**
+Inside the html.hbs you will add the `<html>`, `<head>` and `<body>` tags the assets helpers.
 
 #### Asset helpers
 

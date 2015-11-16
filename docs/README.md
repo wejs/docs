@@ -2,10 +2,10 @@
 
 ## About
 
-> We.js is a Node.js framework for make real time applications, sites or blogs, allows the use of **javascript** in server with plug and play (plugins) features such as socket.io for real time systems
+> We.js is a Node.js framework to build real time applications, sites or blogs, allows the use of **javascript** in server with plug and play (plugins) features such as socket.io for real time systems
 > 
-> And have response types with default HTML response but you can use a client side framework with the build in JSON API or make one plugin for add your custom response type
-
+> We.js have response types with default HTML response but you can use a client side framework with the build in JSON API or make one plugin to add your custom response type
+ 
 ## Runs in:
 
 - Linux
