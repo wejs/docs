@@ -1,6 +1,12 @@
-# Nginx server configuration
+# Web servers and proxy
 
-## Example:
+> You can host multiple apps in same server and every app need be in diferent port. For handle this we use one web server with proxy like nginx or apache how proxy requests from http or https port to internal app port
+
+> Tested with NGINX and Apache
+
+##  NGINX server configuration
+
+### Example:
 
 Lets configure the virtual host for **http://example.com** where then We.js app is runnig in **127.0.0.1:6000** inside same server in **/var/wejs/apps/example.com** folder
 
@@ -68,3 +74,7 @@ server {
     }
  }
 ```
+
+
+### Apache
+TODO!

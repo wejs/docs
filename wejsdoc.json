@@ -181,6 +181,10 @@
     "filestructure": {
       "title": "File Structure",
       "file": "filestructure/README.md"
+    },
+    "web-servers": {
+      "title": "Web servers and proxy",
+      "file": "web-servers/README.md"
     }
   }
 }
