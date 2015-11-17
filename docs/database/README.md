@@ -27,18 +27,21 @@ file: `config/local.js`
   // ...
   database: {
     prod: {
+      //host: 'your-database-hostname',
       dialect: 'mysql',
       database: 'databaseName',
       username: 'databaseUser',
       password: 'password'
     },
     dev: {
+      //host: 'your-database-hostname',     
       dialect: 'mysql',
       database: 'databaseName',
       username: 'databaseUser',
       password: 'password'
     },
     test: {
+      //host: 'your-database-hostname',      
       dialect: 'mysql',
       database: 'databaseName',
       username: 'databaseUser',
@@ -63,12 +66,14 @@ npm install --save pg pg-hstore
   // ...
   database: {
     prod: {
+      //host: 'your-database-hostname',     
       dialect: 'postgres',
       database: 'databaseName',
       username: 'databaseUser',
       password: 'password'
     },
     dev: {
+      //host: 'your-database-hostname',  
       dialect: 'postgres',
       database: 'databaseName',
       username: 'databaseUser',
