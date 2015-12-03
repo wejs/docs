@@ -3,10 +3,10 @@
 server/ #( project server sider folder )
 - controllers/
 - models/
-- emails/
-- forms/
+- emails/ #(Email templates)
+- forms/ #(JSON forms)
 - helpers/
-- templates/
+- templates/ #(HBS templates)
 - widgets/
 bin/
 - [project script files for run in terminal]
@@ -27,9 +27,15 @@ bower.json (optional)
 package.json
 app.js
 plugin.js (optional)
+node_modules/ #(node modules folder)
+- [npm modules, plugins and theme folders]
+
 ```
 
 ## Plugin file structure
+
+Plugins is found inside node_modules folder
+
 ```
 lib/ ( npm module folder )
 - index.js ( initial file how load in with require )
@@ -37,10 +43,10 @@ locales/ ( json default locales )
 server/ ( we.js server files )
 - controllers/
 - models/
-- emails/
-- forms/
+- emails/ #(email templates)
+- forms/ #(json forms)
 - helpers/
-- templates/
+- templates/ #(hbs templates)
 - widgets/
 files/
 - public/ #( public default production assets folder )
@@ -50,6 +56,9 @@ plugin.js ( you plugin file )
 ```
 
 ## Theme file structure
+
+Themes is found inside node_modules folder
+
 ```
 files/ ( files folder )
 files/public/ ( public folder )
