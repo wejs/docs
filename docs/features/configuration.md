@@ -5,6 +5,7 @@
 ## Project
 
 Project configuration override default plugin configurations
+
 Example https://github.com/wejs/site/tree/master/config 
 
 
