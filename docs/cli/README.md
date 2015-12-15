@@ -23,7 +23,7 @@ Get data about your project like all models and controllers loaded
 ```we status```
 
 #### routes
-Print all project routes in terminal
+Print all project routes in terminal with suport to filter by model, controller or path starts with.
 **Usage:**
 ```we routes```
 
@@ -31,6 +31,13 @@ Print all project routes in terminal
 Start a node.js RELP console with your we.js project loaded as `we` console variable
 **Usage:**
 ```we console```
+
+#### run
+Run current we.js project
+**Usage:**
+```we run```
+**Alias**
+```we go```
 
 #### setUserAsAdmin
 Set one user as project administrator with userId
