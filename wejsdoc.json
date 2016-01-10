@@ -63,6 +63,10 @@
         "fileuploads": {
           "title": "File uploads",
           "file": "request-response/fileuploads.md"
+        },
+        "breadcrumb": {
+          "title": "Breadcrumb API",
+          "file": "request-response/breadcrumb.md"
         }
       }
     },
