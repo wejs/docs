@@ -14,7 +14,7 @@ See: http://dev.mysql.com/downloads/mysql/ and follow the instructions
 
 ### Graphicsmagick 
 
-See: http://www.graphicsmagick.org/1.1/www/download.html
+See: ftp://ftp.graphicsmagick.org/pub/GraphicsMagick/windows/
 
 ## The we.js
 
