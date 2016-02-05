@@ -58,6 +58,20 @@ Create a `server/routes/*.json` file inside your project or plugin then add your
   });
 ```
 
+### Route title localization:
+```js
+  plugin.setRoutes({
+    'get /some-path': {
+      controller: 'main',
+      action: 'index',
+      model: 'user',
+      // title method, use i18n for localized titles:
+      titleHandler : 'i18n',
+      titleI18n: 'user.find'
+    }
+  })
+```
+
 ### Route resource
 
 #### Set inside one plugin.js file
