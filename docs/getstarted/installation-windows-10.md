@@ -14,7 +14,7 @@ See: http://dev.mysql.com/downloads/mysql/ and follow the instructions
 
 ### Graphicsmagick 
 
-See: http://www.graphicsmagick.org/1.1/www/download.html
+See: http://www.graphicsmagick.org/INSTALL-windows.html#installing-using-installer-package
 
 ## The we.js
 
