@@ -26,7 +26,7 @@ Cron functions run with we cli `we cron` command
 
 #### How to run with local we cli install
 
-1. first install the cli localy and inside your project:
+1. first install the cli localy *or* inside your project:
 
     ```sh
     npm install we
