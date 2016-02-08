@@ -18,6 +18,9 @@ Example:
   // --- your modele file ...
 
       options: {
+        // disable alias feature in this model set enableAlias to false
+        // enableAlias: true, // default is true
+
         classMethods: {
           // returns an url alias
           urlAlias: function urlAlias(record) {
