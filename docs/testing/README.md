@@ -16,7 +16,13 @@ npm test
 
 To run selected tests use mocha grep command like: 
 
-Run only tests with `userFeature` text:
+Short code for run only tests with `userFeature` text:
+
+```sh
+ẁe test -g 'userFeature'
+```
+
+Or use the full mocha command:
 
 ```sh
 NODE_ENV=test LOG_LV=info ./node_modules/.bin/mocha test/bootstrap.js test/**/*.test.js -b -g 'userFeature'
