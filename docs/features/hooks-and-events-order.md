@@ -147,3 +147,112 @@ we.hooks.on('we:server:after:start', function(we, done) {
 
 this hooks and events run in request and response process
 
+#### HOOK we:router:request:before:load:context
+
+```js
+we.hooks.on('we:router:request:before:load:context', function (data, done) {
+  // var res = data.res;
+  // var req = data.req;
+  done();
+});
+```
+
+#### HOOK we:router:request:after:load:context
+
+```js
+plugin.hooks.on('we:router:request:after:load:context', function (data, done) {
+  // var res = data.res;
+  // var req = data.req;
+  done();
+});
+```
+
+#### HOOK we-plugin-menu:after:set:core:menus
+Menu plugin is required!
+
+```js
+we.hooks.on('we-plugin-menu:after:set:core:menus', function(data, done) {
+  // var res = data.res;
+  // var req = data.req;
+  done();
+});
+```
+
+#### HOOK we:before:send:okResponse
+Run code after res.ok() response:
+
+```js
+we.hooks.on('we:before:send:okResponse', function (data, done) {
+  // var req = data.req;
+  // var res = data.res;
+  // var recordOrRecords = data.data;
+  done();
+});
+```
+
+#### HOOK we:before:send:createdResponse
+Run code after res.created() response:
+
+```js
+we.hooks.on('we:before:send:createdResponse', function (data, done) {
+  // var req = data.req;
+  // var res = data.res;
+  // var recordOrRecords = data.data;
+  done();
+});
+```
+
+#### HOOK we:before:send:updatedResponse
+Run code after res.updated() response:
+
+```js
+we.hooks.on('we:before:send:updatedResponse', function (data, done) {
+  // var req = data.req;
+  // var res = data.res;
+  // var recordOrRecords = data.data;
+  done();
+});
+```
+
+#### HOOK we:before:send:deletedResponse
+Run code after res.deleted() response:
+
+```js
+we.hooks.on('we:before:send:deletedResponse', function (data, done) {
+  // var req = data.req;
+  // var res = data.res;
+  done();
+});
+```
+
+## On render HTML page
+
+### Event: we-html-body-start
+
+```js
+we.events.on('we-html-body-start', function (data) {
+  var html = data.html; // html text is avaible in html.text, this need be in object to use object attr pointer
+  var we = data.we;
+  var hbsHelperOptions = data.options; 
+});
+```
+
+### Event: we:config:getAppBootstrapConfig
+
+```js
+we.events.on('we:config:getAppBootstrapConfig', function (data) {
+  var configs = data.configs; // client side configs
+  var we = data.we;
+  var context = data.context; // res.locals
+});
+```
+
+### Event: we-html-body-end
+
+```js
+we.events.on('we-html-body-end', function (data) {
+  var html = data.html; // html text is avaible in html.text, this need be in object to use object attr pointer
+  var we = data.we;
+  var hbsHelperOptions = data.options; 
+});
+```
