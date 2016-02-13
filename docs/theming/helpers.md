@@ -114,18 +114,18 @@ Usage:
 ```
 
 
-## Contains
+## We Contains
 
 Check if the array contains a value
 
 Usage:
 
 ```hbs
-  {{#contains array value}}
+  {{#we-contains array value}}
       {{array}} contains {{value}}
   {{else}}
       {{array}} not contains {{value}}
-  {{/contains}}
+  {{/we-contains}}
 ```
 
 ## Date
