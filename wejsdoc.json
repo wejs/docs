@@ -189,6 +189,10 @@
     "web-servers": {
       "title": "Web servers and proxy",
       "file": "web-servers/README.md"
+    },
+    "messages": {
+      "title": "System messages",
+      "file": "messages/README.md"
     }
   }
 }
