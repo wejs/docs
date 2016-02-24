@@ -103,6 +103,7 @@ file `server/resources/admin.user.json`:
 {
   "name": "user",
   "findAll": {
+    "loadCurrentRecord": false, // disable preload current record in context loader
     "search": {
       "q": {
         "parser": "userSearchQuery",
