@@ -130,12 +130,34 @@ file `server/resources/admin.user.json`:
     name: 'user',
     // route namespage
     namespace: '/admin',
-    
+
+    // set custom permission
+    // permission: '[string]',
+
     // // custom template folder for templates in this resources
     // templateFolderPrefix: 'admin/',
-    
-    // custom settings for findAll routes, this is optional
+
+    // Custom settings for findAll action, this is optional and you can override all default actions: findAll, create, edit, delete and findOne
+    // See https://github.com/wejs/we-core/blob/master/lib/class/Controller.js for default action names
     findAll: {
+        
+      // // For use one localized string
+      // titleHandler: 'i18n',
+      // titleI18n: '[i18nstring',
+
+      // // breadcrumb handler method
+      // breadcrumbHandler: '[name]',
+      
+      // // Name of template file without .hbs
+      // template: 'somefile/file',
+      
+      // // Set custom layout for this route
+      // layoutName,
+
+      // // Add custom model or controller
+      // controller: '[controllerName]',
+      // model: '[modelName]',
+
       // search API converts query params to internal sequelize.where params     
       search: {
         id:  {
