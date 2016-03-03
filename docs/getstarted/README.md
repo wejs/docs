@@ -5,5 +5,3 @@
 If you have any problem to create a new project or feature, please send an feedback to https://groups.google.com/forum/#!forum/we-js or https://github.com/wejs/we we will be happy to help and make this project better!
 
 > Now lets go and start your tutorial! http://wejs.org/docs/we/getstarted
-
-

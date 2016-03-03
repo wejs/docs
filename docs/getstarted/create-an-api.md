@@ -25,9 +25,8 @@ With yeoman!
 
 1- Create the model file
 ```sh
-yo wejs:model
+yo wejs:model post
 ```
-Then type `post` as model name
 
 2- Set your model attributes in model.definition
 
@@ -51,7 +50,7 @@ Open the model file in your editor `server/models/post.js` and add:
 
 save your file
 
-#### 2 Create a controller
+#### 2 Create an controller
 
 Create the file `server/controllers/post.js` with:
 
