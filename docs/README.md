@@ -2,9 +2,13 @@
 
 ## About
 
-> We.js is a Node.js framework to build real time applications, foruns, sites or blogs and allows the use of **javascript** in server with plug and play (plugins) features such as messenger for real time systems
+> We.js is a Node.js framework to build real time applications, foruns, sites or blogs with extendable response format negotiation and plug and play (plugins) features such as themes, articles or messenger for real time systems
 > 
-> We.js have response types with default HTML response but you can use the build in JSON API for make your Single page application (SPA) or make one plugin to add your custom response type
+> Build in suport to HTML (default) and JSON response but you can make new response formats like XML.
+> 
+> User, roles and permissions! 
+> Build in ACL strategy for protect user routes and more!
+> 
  
 ## Runs in
 
