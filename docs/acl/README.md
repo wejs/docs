@@ -47,7 +47,7 @@ we.acl.canStatic('do_something', req.userRoleNames);
 ## Related template helpers
  
 ```hbs
-{{#can permission='do_something' roles=req.userRoleNames}}
+{{#can permission='do_something' roleNames=req.userRoleNames}}
   can
 {{else}}
   cant
