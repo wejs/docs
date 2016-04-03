@@ -15,7 +15,7 @@ In project execution default connection is avaible at `we.db.defaultConnection` 
 By default all projects there are three databases connection configurations that is selected by environment.
 Ex: if you are in dev enviroment it will start the default database connections with we.config.database.dev configuration
 
-For all options see: http://sequelize.readthedocs.org/en/latest/api/sequelize/#class-sequelize
+** For all options see: http://sequelize.readthedocs.org/en/latest/api/sequelize/#class-sequelize **
 
 ### Mysql
 
@@ -31,6 +31,7 @@ file: `config/local.js`
       dialect: 'mysql',
       database: 'databaseName',
       username: 'databaseUser',
+      port: '3306',
       password: 'password'
     },
     dev: {
@@ -38,6 +39,7 @@ file: `config/local.js`
       dialect: 'mysql',
       database: 'databaseName',
       username: 'databaseUser',
+      port: '3306',      
       password: 'password'
     },
     test: {
@@ -45,6 +47,7 @@ file: `config/local.js`
       dialect: 'mysql',
       database: 'databaseName',
       username: 'databaseUser',
+      port: '3306',      
       password: 'password'
     }
   }
