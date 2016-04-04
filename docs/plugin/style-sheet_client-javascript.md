@@ -24,7 +24,27 @@ In **plugin.js** file:
     }
 ```
 
-## Register a client side javascript file
+## Register a client side javascript file in plugin public folder
+
+In **plugin.js** file:
+
+```js
+   plugin.addJs({
+      // weight for use in assets print order    
+      weight: 6, 
+      
+      // plugin type is the default
+      // type: 'plugin',
+      
+      // Plugin name where this asset is localed
+      pluginName: 'we-core',
+
+      // all assets need be inside the **files/public/** folder
+      path: 'files/public/js/load-image.all.js'
+    }
+```
+
+## Register a client side javascript file how are in project public folder
 
 In **plugin.js** file:
 
@@ -33,8 +53,8 @@ In **plugin.js** file:
       // weight for use in assets print order    
       weight: 6, 
 
-      // Plugin name where this asset is localed
-      pluginName: 'we-core',
+      // project type
+      type: 'project',
 
       // all assets need be inside the **files/public/** folder
       path: 'files/public/js/load-image.all.js'
