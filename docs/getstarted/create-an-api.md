@@ -83,6 +83,8 @@ get /post/:postId/edit
 post /post/:postId/edit
 get /post/:postId/delete
 post /post/:postId/delete
+update /post/:postId
+delete /post/:postId
 ```
 
 ### Done 
@@ -90,6 +92,3 @@ post /post/:postId/delete
 Now to see your resource start the project with `npm run dev` , open your browser and access `/post/create` to access your form and `/post` to access your list;
 
 After publish your project don't forget to configure your project permissions in `/admin/permissions` page
-
-
-

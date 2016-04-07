@@ -1,14 +1,14 @@
 # Core Concepts
 
-> To get started with We.js, there are a few core concepts you should understand.
+> To get started with We.js, there are a few core concepts you should understood.
 
 ## Plugin
 
-A plug and play NPM module with suport to database updates and installation, split your code in small plugins for reuse in others projects.
+Plug and play NPM module with suport to database updates and installation, split your code in small plugins for reuse in others projects.
 
-Use plugin to add new features for your project or change default features from others plugins.
+Use plugin to add new features in your project or change default features from others plugins.
 
-If the project have a plugin.js file it will be load as plugin after all plugins then is a good place the override or change plugin features.
+If the project have a plugin.js file it will be load as plugin after all plugins. This is a good place to override or change features from others plugins.
 
 ## Context Loader
 
@@ -18,7 +18,7 @@ Preload data in res.locals related to current request like record in findOne, ed
 
 Get data from database or other provider, process and send to response formatter with response methods.
 
-Every controller is a instance of we.js [Controller class](https://github.com/wejs/we-core/blob/master/lib/class/Controller.js) and functions in controller is called actions how work like express.js middlewares how receive req, res and next arguments.
+Every controller is a instance of We.js [controller prototype](https://github.com/wejs/we-core/blob/master/lib/class/Controller.js) and functions in controller is called actions how work like express.js middlewares how receive req, res and next arguments.
 
 ## Model
 
@@ -34,20 +34,20 @@ Build in permissions feature and ACL based in `users -> roles -> permissions` ho
 
 ## Theme
 
-A theme is responsible for visual, html and css of your project
+A theme is responsible for visual, html and css of your project.
 
-Make themes for your project in html response. By default every we.js project have 2 themes, 1 for admin and 1 for app.
+Make themes for your project with html response content. By default every we.js project have 2 themes, 1 for administration and 1 for app.
 
 ## Layouts, regions and widgets
 
-HTML responses have the layouts, regions and widgets feature
+HTML response format have layouts, regions and widgets parts
 
-Define the layouts and regions in your theme and then add widgets in regions of the page with edit in place API
+Define the layouts and regions in your theme and then add widgets in regions of the page with widgets edit in place API
 
-Widget API is avaible for single page applications the your can use it to build dynamic dashboards or page blocks
+Widget API is avaible for single page applications with API calls, use it to build dynamic dashboards or page blocks
 
 ## Generators
 
-With the we.js generator you can generate we.js projects, plugins, themes and features like model, resource(CRUD), widgets and more
+With the We.js generator you can generate projects, plugins, themes and features like model, resource(CRUD), widgets and more
 
 Powered by yeoman!
