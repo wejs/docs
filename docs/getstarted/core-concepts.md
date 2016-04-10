@@ -12,7 +12,7 @@ If the project have a plugin.js file it will be load as plugin after all plugins
 
 ## Context Loader
 
-Preload data in res.locals related to current request like record in findOne, edit or update actions how are avaible in res.locals.data.
+Preload data in res.locals related to current request like record (res.locals.data) in findOne, edit or update actions and are avaible in res.locals.data.
 
 ## Controller
 

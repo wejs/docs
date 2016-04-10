@@ -1,10 +1,11 @@
 # Generate a blog project
 
-> With yeoman:
+> With yeoman generator-wejs:
 
 ```sh
 yo wejs:blog
 ```
+
 We.js ask you for the name of your project
 
 ```sh
@@ -21,7 +22,7 @@ We.js ask you for the name of your project
 ? Your blog name: blogname
 ```
 
-Or if you want something simple its possible to make a simple app with `yo wejs:app` 
+Note: if you want something simple its possible to make a simple app with `yo wejs:app` 
 
 ### Enter in your project folder
 ```sh
@@ -43,7 +44,6 @@ Edit ```config/local.js``` file and change database configuration to your databa
 npm run dev
 ```
 
-
 ### For load default locales run:
 
 This will load all default locales from plugins and save this locales in your project.
@@ -51,6 +51,3 @@ This will load all default locales from plugins and save this locales in your pr
 ```sh
 we loadLocales
 ```
-
-
-
