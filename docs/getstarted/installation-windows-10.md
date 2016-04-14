@@ -5,8 +5,8 @@
 ### Node.js
 
 1. Go to https://nodejs.org
-  * click in **Download for windows** link
-  * download and run the install program
+  * Click in **Download for windows** link
+  * Download and run the install program
 
 ### Mysql server
 

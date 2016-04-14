@@ -22,7 +22,7 @@ module.exports: {
   
   // acl configs
   acl: {
-    // set to false for enable acl feature
+    // set to false for enable acl feature. ACL is disabled by default
     disabled: true 
   },
   

@@ -11,13 +11,14 @@ To add a cron function you need to create the `cron.js` file inside your project
 #### Example File
 
 file `cron.js`
+
 ```js
 module.exports = function (we, done) {
   // do something ...
   // database is avaible at we.db
   // then call done();
   done();
-}
+};
 ```
 
 ## How to run
@@ -40,7 +41,7 @@ Cron functions run with we cli `we cron` command
 #### How to run with a global we cli install
 
 Inside the project folder tip:
+
 ```sh
 we cron
 ```
-
