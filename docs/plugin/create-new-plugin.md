@@ -23,3 +23,11 @@ npm install
 
 **file:** `[plugin folder]/README.md`
 
+### How to use your new plugin?
+
+Any plugin is one npm module then you may use the npm link or npm install
+
+1- For development or private plugins: Use `npm link` to link the plugin in one We.js project 
+2- For public production plugins: Use `npm publish` to publish your plugin and `npm install [pluginName]` in your We.js project
+
+Npm link docs: https://docs.npmjs.com/cli/link
