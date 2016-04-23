@@ -11,7 +11,7 @@ The HTML response have a windows.we object with all client side functions and lo
 In **plugin.js** file:
 
 ```js
-    plugin.addCss({
+    plugin.addCss('jquery.cssemoticons', { // unique name
       // weight for use in assets print order
       weight: 5, 
 
@@ -21,7 +21,7 @@ In **plugin.js** file:
       // path to you file, 
       // all assets need be inside the **files/public/** folder
       path: 'files/public/jquery.cssemoticons/jquery.cssemoticons.css'
-    }
+    });
 ```
 
 ## Register a client side javascript file in plugin public folder
@@ -29,7 +29,7 @@ In **plugin.js** file:
 In **plugin.js** file:
 
 ```js
-   plugin.addJs({
+    plugin.addJs('load-image.all', {
       // weight for use in assets print order    
       weight: 6, 
       
@@ -41,7 +41,7 @@ In **plugin.js** file:
 
       // all assets need be inside the **files/public/** folder
       path: 'files/public/js/load-image.all.js'
-    }
+    });
 ```
 
 ## Register a client side javascript file how are in project public folder
@@ -49,7 +49,7 @@ In **plugin.js** file:
 In **plugin.js** file:
 
 ```js
-   plugin.addJs({
+    plugin.addJs('load-image.all', {
       // weight for use in assets print order    
       weight: 6, 
 
@@ -58,7 +58,7 @@ In **plugin.js** file:
 
       // all assets need be inside the **files/public/** folder
       path: 'files/public/js/load-image.all.js'
-    }
+    });
 ```
 
 
