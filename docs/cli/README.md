@@ -1,6 +1,6 @@
 # Command-line interface (CLI)
 
-We.js cli is a util tool for manage and develop your we.js project
+Util tool for manage, get information, run small tasks in your We.js project
 
 To see all commands after install we cli type `we` in your terminal
  

@@ -1,10 +1,10 @@
 # Cron tasks
 
-> With We.js cron feature you can set functions to run with linux cron or other task manager after some time
-> 
-> May be add inside project or plugin
+With cron feature you can set functions to run with linux cron or other task managers
+ 
+May be add inside project or plugin
 
-# How to add
+## How to add
 
 To add a cron function you need to create the `cron.js` file inside your project or plugin folder
 

@@ -1,6 +1,6 @@
 # Run with cluster module
 
-> In we.js v1.0 you can run multiple instances of we.js using Cluster module of node.js
+In we.js v1.0 you can run multiple instances of we.js using node.js Cluster module
 
 ### Change your app.js file to:
 

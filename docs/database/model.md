@@ -1,10 +1,11 @@
 # Models
 
-> We.js models is a wrapper of sequelize models how allow one plugin change other plugin model
+We.js model is a wrapper of sequelize models how allow one plugin change other plugin model
 
 Related documentation in sequelize docs: http://docs.sequelizejs.com/en/latest/docs/models-definition/ 
 
 ## How to create a model?
+
 With we.js yeoman generator!
 
 ```sh

@@ -1,6 +1,6 @@
 # Configuration
 
-> Set default configurations in plugins and overrides in project configs
+Set default configurations in plugins and overrides in project configs
 
 ## Project
 

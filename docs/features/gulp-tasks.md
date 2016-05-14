@@ -1,8 +1,8 @@
 # Gulp tasks
 
-> Default We.js projects have a defalt gulp tasks powered by we-gulp-tasks-default npm module
-> 
-> You can change the default gulp tasks, add or remove from your project
+Defalt gulp tasks powered by we-gulp-tasks-default npm module
+ 
+You can change the default gulp tasks, add or remove from your project
 
 See https://github.com/wejs/we-gulp-tasks-default for all tasks
 

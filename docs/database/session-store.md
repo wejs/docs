@@ -1,7 +1,9 @@
 # Session store
 
-> A database for store user sessions, by default we.js try to use the mysql database
-> We.js use the **express-session** npm module the have suport to compatible session stores like **connect-redis**
+A database for store user sessions and temporary data. 
+By default it will try to use the mysql database
+
+We.js use the **express-session** npm module and is compatible with session stores like **connect-redis**
 
 Express session: https://github.com/expressjs/session
 

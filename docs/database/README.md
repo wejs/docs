@@ -1,10 +1,10 @@
 # Database, ORM and sessions
 
-> We.js use Sequelize as Object-relational mapping (ORM) with extra steps for allowing model extensions in plugins
+We.js use Sequelize as Object-relational mapping (ORM) with extra steps for allowing model extensions in plugins
 
-> Current We.js database feature only suport SQL databases ('mysql'|'mariadb'|'sqlite'|'postgres'|'mssql') 
+Current We.js database feature only suport SQL databases ('mysql'|'mariadb'|'postgres'|'mssql') 
 
-> For user session we.js projects use the express-session
+For user session we.js projects use the express-session
 
 ## Important variables
 

@@ -1,8 +1,8 @@
 # Administrative interface
 
-> We.js have an administration interface which allow manage your project features.
+Administration interface to manage your project features and data
 
-> Path in your we.js project: `/admin`.
+Path in your we.js project: `/admin`.
 
 ### Users
 

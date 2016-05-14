@@ -1,6 +1,8 @@
 # Access control list (ACL)
 
-> We.js core have a build in ACL feature how check if current user have access to one route based in roles and permissions
+Ready to use role-based access control (RBAC) feature from we-core-acl npm module.
+
+Check if current user have access to one route based in roles and permissions
 
 ## How We.js ACL works?
 

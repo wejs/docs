@@ -1,5 +1,7 @@
 # Plugin install and database update
 
+Functions to run in `we update` and do changes in your projects
+
 ### Example file:
 
 ```js

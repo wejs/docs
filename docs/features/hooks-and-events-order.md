@@ -1,6 +1,10 @@
 # Hooks and events
 
-> A list of hooks and events ordered by execution
+Hooks and events is the default extension inteface in we.js projects.
+
+Hooks have callbacks powered by simple-hook-callback and events is node EventListener instance
+
+A list of hooks and events ordered by execution
 
 ## On We.js bootstrap
 
