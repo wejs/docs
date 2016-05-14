@@ -1,6 +1,6 @@
 # Core Concepts
 
-> To get started with We.js, there are a few core concepts you should understood.
+To get started with We.js, there are a few core concepts you should understood.
 
 ## Plugin
 

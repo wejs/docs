@@ -1,6 +1,6 @@
 # Url alias
 
-> Override default express routes with custom routes for make slugs or clean urls and define model functions how automaticaly generate url alias for your records
+Override default express routes with custom routes for make slugs or clean urls and define model functions how automaticaly generate url alias for your records
 
 Avaible in we-core v0.3.98+
 

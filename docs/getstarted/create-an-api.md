@@ -1,10 +1,10 @@
 # Create a simple resource API
 
-> For create a We.js resource API in your project you need to create one model, one controller and set the resouce
+For create a We.js resource API in your project you need to create one model, one controller and set the resouce
 
 ## Lets make the `post` resource
 
-> Lets see how to make a resource with generator-wejs or step by step:
+Lets see how to make a resource with generator-wejs or step by step:
 
 ### 1- With resource generator-wejs
 

@@ -1,6 +1,6 @@
 # Model form
 
-> Auto generate a html form from model attributes.
+Auto generate a html form from model attributes.
 
 ### How to:
 

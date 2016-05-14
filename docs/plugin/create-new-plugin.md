@@ -1,6 +1,6 @@
 # Create new plugin
 
-> Powered by We.js yeoman generator 
+Powered by We.js yeoman generator 
 
 ### Generate the plugin structure
 

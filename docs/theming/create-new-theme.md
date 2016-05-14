@@ -1,6 +1,6 @@
 # Create a new theme
 
-> We.js yeoman generator can generate one theme structure with default tiles and layout
+We.js yeoman generator can generate one theme structure with default tiles and layout
 
 ### Generate theme structure
 

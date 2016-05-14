@@ -1,8 +1,8 @@
 # Web servers and proxy
 
-> You can host multiple apps in same server and every app need be in diferent port. For handle this we use one web server with proxy like nginx or apache how proxy requests from http or https port to internal app port
+You can host multiple apps in same server and every app need be in diferent port. For handle this we use one web server with proxy like nginx or apache how proxy requests from http or https port to internal app port
 
-> Tested with NGINX and Apache
+Tested with NGINX and Apache
 
 ##  NGINX server configuration
 

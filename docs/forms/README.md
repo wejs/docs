@@ -1,8 +1,8 @@
 # Forms
 
-> We.js have 2 types of auto generated forms and form field types
-> 
-> Forms feature is avaible in: https://github.com/wejs/we-plugin-form 
+Generate forms from JSON or model attributes.
+
+Forms feature is avaible in: https://github.com/wejs/we-plugin-form 
 
 And the default form fields is in: https://github.com/wejs/we-plugin-form/tree/master/server/templates/forms
 

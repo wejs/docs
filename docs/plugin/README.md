@@ -1,8 +1,8 @@
 # Plugins
 
-> Plug and play npm modules build for extend we.js projects, build one feature and reuse or share with others developers
-> 
-> You can add Widgets, controllers, routes, models ... every we.js feature can be override or added with plugins
+Plug and play npm modules build for extend we.js projects, build one feature and reuse or share with others developers
+ 
+You can add Widgets, controllers, routes, models ... every we.js feature can be override or added with plugins
 
 The plugin main file is `plugin.js`
 

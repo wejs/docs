@@ -1,6 +1,7 @@
 # JSON form
 
-> Auto generate a html form from JSON file
+Auto generate a html form from JSON file
+
 ### How to:
 
 #### First register the json form:

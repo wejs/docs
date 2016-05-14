@@ -1,6 +1,6 @@
 # Field types
 
-> Reusable templates for build form field types
+Reusable templates for build form field types
 
 Avaible with [we-plugin-form](https://github.com/wejs/we-plugin-form)
 

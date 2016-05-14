@@ -1,8 +1,8 @@
 # Plugin Style sheet and Javascript
 
-> Style sheets and client Javascript register and order is avaible for we.js **html** repsonse type.
-> 
-> With this feature you can register assets with weight and unique names how allows to others plugins add others assets after or before any file
+Style sheets and client Javascript register and order is avaible for we.js **html** repsonse type.
+ 
+With this feature you can register assets with weight and unique names how allows to others plugins add others assets after or before any file
 
 The HTML response have a windows.we object with all client side functions and logic.
 

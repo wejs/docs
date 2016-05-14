@@ -1,6 +1,6 @@
 # Generate a blog project
 
-> With yeoman generator-wejs:
+With yeoman generator-wejs:
 
 ```sh
 yo wejs:blog

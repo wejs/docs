@@ -1,6 +1,6 @@
 # System message feature
 
-> Code: https://github.com/wejs/we-core/blob/master/lib/messages/index.js
+Code: https://github.com/wejs/we-core/blob/master/lib/messages/index.js
 
 ## How to set one message:
 

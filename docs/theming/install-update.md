@@ -1,6 +1,6 @@
 # Installation and updates
 
-> We.js theme is npm modules
+We.js theme is npm modules
 
 ## Installation
 

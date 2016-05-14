@@ -1,6 +1,6 @@
 # Security
 
-> We.js have some build in security features like ACL, CORS or text sanitizer
+We.js have some build in security features like ACL, CORS or text sanitizer
 
 ## Cross-Origin Resource Sharing (CORS)
 

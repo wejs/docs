@@ -1,10 +1,10 @@
 # We.js theming
 
-> Change the visual and structure of your project in html response (default response)
-> 
-> Themes can override default plugin templates to change html structures or CSS class
-> 
-> We.js theme is a npm module
+Change the visual and structure of your project in html response (default response)
+ 
+Themes can override default plugin templates to change html structures or CSS class
+ 
+We.js theme is a npm module
 
 By default we.js has two kinds of themes, the **app** and **admin** theme.
 

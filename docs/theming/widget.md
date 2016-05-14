@@ -1,6 +1,6 @@
 # Widget
 
-> HTML blocks how are rendered in html responses or load with widget API
+HTML blocks how are rendered in html responses or load with widget API
 
 Widgets may be created in plugins or projects
 

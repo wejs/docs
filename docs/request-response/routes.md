@@ -1,6 +1,6 @@
 # We.js router
 
-> Router is build with Express.js and is compatible with all Express.js modules
+Router is build with Express.js and is compatible with all Express.js modules
 
 Plugin or project routes is set in plugin.js files.
 

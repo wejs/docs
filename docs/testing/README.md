@@ -1,6 +1,6 @@
 # Testing
 
-> Projects and plugins generated with yeoman generator-wejs have a default test structure with mocha, request and assert
+Projects and plugins generated with yeoman generator-wejs have a default test structure with mocha, request and assert
 
 See `mocha.js` documentation for more help in: https://mochajs.org/
 
