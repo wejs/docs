@@ -2,6 +2,8 @@
 
 For create a We.js resource API in your project you need to create one model, one controller and set the resouce
 
+> Tip: Use `we routes` command to list all routes with suport to filters, see options ẁith `we routes -h`
+
 ## Lets make the `post` resource
 
 Lets see how to make a resource with generator-wejs or step by step:
