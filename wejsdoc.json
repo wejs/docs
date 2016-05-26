@@ -18,13 +18,13 @@
           "title": "Installation",
           "file": "getstarted/installation.md"
         },
-        "blog-project": {
-          "title": "Generate a blog project",
-          "file": "getstarted/generate-blog-project.md"
-        },
         "create-an-api": {
           "title": "Create a simple resource API",
           "file": "getstarted/create-an-api.md"
+        },
+        "blog-project": {
+          "title": "Generate a blog project",
+          "file": "getstarted/generate-blog-project.md"
         }
       }
     },

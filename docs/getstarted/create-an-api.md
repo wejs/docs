@@ -1,10 +1,10 @@
 # Create a simple resource API
 
-For create a We.js resource API in your project you need to create one model, one controller and set the resouce
+Lets use the generator to make the post resource.
 
 > Tip: Use `we routes` command to list all routes with suport to filters, see options ẁith `we routes -h`
 
-## Lets make the `post` resource
+## Make the `post` resource
 
 Lets see how to make a resource with generator-wejs or step by step:
 
@@ -18,6 +18,8 @@ yo wejs:resource post
 ```
 
 And done!
+
+TIP: Use `we routes` command to list and filder all routes in your project.
 
 ### 2- Step by step without the generator-wejs
 
@@ -78,15 +80,24 @@ Open the `plugin.js`file inside your project folder and add:
 This will make:
 
 ```
+post /post # create
+get /post # list, find
+get /post/:postId # find one
+put /post/:postId # update one
+delete /post/:postId # delete one
+
+```
+
+And if we-plugin-view is installed will generate:
+
+```
+
 get /post/create
-get /post
-get /post/:postId
 get /post/:postId/edit
 post /post/:postId/edit
 get /post/:postId/delete
 post /post/:postId/delete
-update /post/:postId
-delete /post/:postId
+
 ```
 
 ### Done 
