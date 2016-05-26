@@ -1,5 +1,9 @@
 # Generate a blog project
 
+Lets make the blog project ...
+
+Install graphicsmagick dependency http://www.graphicsmagick.org/ (optional for we-plugin-file and blog project). Check in your package manager
+
 With yeoman generator-wejs:
 
 ```sh
@@ -15,7 +19,7 @@ We.js ask you for the name of your project
    `---------´   |  project generator! |o/  |
     ( _´U`_ )    |            |o/           |
     /___A___\    |                          |
-     |  ~  |     |   generate one testable  |
+     |  ~  |     |   Generate one testable  |
    __'.___.'__   |      we.js project!      |
  ´   `  |° ´ Y ` '--------------------------'
 
@@ -41,7 +45,7 @@ Edit ```config/local.js``` file and change database configuration to your databa
 ### Start the project with:
 
 ```sh
-npm run dev
+we go
 ```
 
 ### For load default locales run:

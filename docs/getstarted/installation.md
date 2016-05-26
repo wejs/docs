@@ -1,5 +1,7 @@
 # Installation
 
+Intall the dependencies and tools
+
 ### 1- Install dependencies:
 
 * Mysql http://www.mysql.com/ (default database)
@@ -7,9 +9,11 @@
 * Node.js http://nodejs.org/ 
   * For Node.js installation use the node [NVM](https://github.com/creationix/nvm) **or** the [nodesource repositories](https://github.com/nodesource/distributions)
 * npm https://npmjs.org/
-* graphicsmagick http://www.graphicsmagick.org/ (check in your package manager)
-* Bower http://bower.io/ (optional)
-  * default we.js project dont use bower components
+
+#### 1.1- Optional:
+
+* graphicsmagick http://www.graphicsmagick.org/ (optional for we-plugin-file and blog project) 
+  * check in your package manager
 
 ### 2- Install we.js CLI and yeoman generator:
 
