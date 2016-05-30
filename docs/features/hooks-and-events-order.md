@@ -2,11 +2,11 @@
 
 Hooks and events is the default extension inteface in we.js projects.
 
-Hooks have callbacks powered by simple-hook-callback and events is node EventListener instance
+Hooks have callbacks powered by **simple-hook-callback** and events is node.js EventListener instance
 
 Events and hooks is avaible in we object as `we.events` , `we.hooks` and plugin instance `plugin.events` and `plugin.hooks` 
 
-# List of hooks and events ordered by execution:
+# List of core hooks and events ordered by execution:
 
 ## On We.js bootstrap
 

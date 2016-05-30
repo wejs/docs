@@ -21,10 +21,9 @@
 - Access controll list (ACL)
 - ORM ( with sequelize )
   - Models
-- Default in gulp tasks
 - Email with templates and localization
 - Configurable routes with suport to response type, formaters and file upload
 - Controllers
 - Internationalization (node i18n)
-- Layout, regions and Widgets 
-- URL alias
+
+

@@ -2,7 +2,7 @@
 
 Extendable response formaters for format your response after send to client
 
-To change the response formater set the extension like `/user.json`  in your url or Accept header
+To change the response formater set the extension like `/user.json`  in url or Accept header
 
 ## Options for select the response content type (responseType)
 

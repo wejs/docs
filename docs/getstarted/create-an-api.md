@@ -13,73 +13,21 @@ Lets see how to make a resource with generator-wejs or step by step:
 This will generate the controller, model and resource routes.
 
 Inside your project or plugin:
+
 ```sh
-yo wejs:resource post
+yo wejs:resource post title:string:allowNull=false teaser:text body:text published:boolean
 ```
+
+> **yo wejs:resource post** generate the post model and **title:string:allowNull=false teaser:text body:text published:boolean** will be model attributes
 
 And done!
 
-TIP: Use `we routes` command to list and filder all routes in your project.
-
-### 2- Step by step without the generator-wejs
-
-#### Create a model
-
-With yeoman!
-
-1- Create the model file
-```sh
-yo wejs:model post
-```
-
-2- Set your model attributes in model.definition
-
-Open the model file in your editor `server/models/post.js` and add:
-
-```js
-// ...
-    definition: {
-      title: {
-        type: we.db.Sequelize.TEXT,
-        allowNull: false
-      },
-      text: {
-        type: we.db.Sequelize.TEXT,
-        formFieldType: 'html'
-      }
-      // ...
-   }
-// ...
-```
-
-save your file
-
-#### 2 Create an controller
-
-Create the file `server/controllers/post.js` with:
-
-```js 
-module.exports = {};
-```
-
-All controllers are an instance of: https://github.com/wejs/we-core/blob/master/lib/class/Controller.js
-
-And have all default controller actions.
-
-#### 3 Set route resource
-
-Open the `plugin.js`file inside your project folder and add:
-
-```js
-  // by default the url will be /post
-  plugin.setResource({
-    name: 'post'
-  });
-```
+TIP: Use `we routes` command to list and filter all routes in your project.
 
 This will make:
 
 ```
+## API:
 post /post # create
 get /post # list, find
 get /post/:postId # find one
@@ -88,10 +36,16 @@ delete /post/:postId # delete one
 
 ```
 
-And if we-plugin-view is installed will generate:
+And if **we-plugin-view** is installed will generate:
 
 ```
-
+## API:
+post /post # create
+get /post # list, find
+get /post/:postId # find one
+put /post/:postId # update one
+delete /post/:postId # delete one
+## pages:
 get /post/create
 get /post/:postId/edit
 post /post/:postId/edit
@@ -100,8 +54,3 @@ post /post/:postId/delete
 
 ```
 
-### Done 
-
-Now to see your resource start the project with `npm run dev` , open your browser and access `/post/create` to access your form and `/post` to access your list;
-
-After publish your project don't forget to configure your project permissions in `/admin/permissions` page

@@ -12,14 +12,15 @@ In project execution default connection is avaible at `we.db.defaultConnection` 
 
 ## Database configuration
 
-By default all projects there are three databases connection configurations that is selected by environment.
-Ex: if you are in dev enviroment it will start the default database connections with we.config.database.dev configuration
+By default all projects have 3 database connection configurations that is selected by environment.
+Example: if you are in dev enviroment it will start the default database connection with we.config.database.dev configuration
 
-** For all options see: http://sequelize.readthedocs.org/en/latest/api/sequelize/#class-sequelize **
+** For all database options see: http://sequelize.readthedocs.org/en/latest/api/sequelize/#class-sequelize **
 
 ### Mysql
 
-Build in mysql support and the session configuration is automatically set with database settings and the default configuration for mysql is:
+Mysql suport requires mysql npm modules: `npm install --save mysql`
+Example configuration:
 
 file: `config/local.js`
 
@@ -57,14 +58,16 @@ file: `config/local.js`
 ### PostgreSQL 
 
 For suport with postgreSQL you need we-core v0.3.89+
-
 To configure the postgreSQL database you need to:
 
 1. Install **pg** and **pg-hstore** in your project:
+
 ```js
 npm install --save pg pg-hstore
 ```
+
 2. Configure the project **config/local.js**:
+
 ```js
   // ...
   database: {
@@ -85,6 +88,8 @@ npm install --save pg pg-hstore
   },
   // ...
 ```
+
 3. Configure a session store
-  We-core mysql session store is disabled then you need to configure you session store.
+
+  We-core mysql session store is disabled without mysql database then you need to configure you session store.
   See the session store page

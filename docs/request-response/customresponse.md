@@ -1,4 +1,4 @@
-# Responses
+# Response method
 
 Custom responses functions extends express.js response object (res) with some extras functions like res.ok, res.updated.
 

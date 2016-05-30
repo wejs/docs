@@ -2,11 +2,11 @@
 
 With cron feature you can set functions to run with linux cron or other task managers
  
-May be add inside project or plugin
+May be added inside project or plugin
 
 ## How to add
 
-To add a cron function you need to create the `cron.js` file inside your project or plugin folder
+To add cron functions you need to create the `cron.js` file inside your project or plugin folder
 
 #### Example File
 

@@ -1,6 +1,6 @@
 # Gulp tasks
 
-Defalt gulp tasks powered by we-gulp-tasks-default npm module
+Defalt gulp tasks powered by **we-gulp-tasks-default** npm module
  
 You can change the default gulp tasks, add or remove from your project
 

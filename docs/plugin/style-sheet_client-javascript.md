@@ -2,6 +2,8 @@
 
 Style sheets and client Javascript register and order is avaible for we.js **html** repsonse type.
  
+Avaible in [we-plugin-view](https://github.com/wejs/we-plugin-view)
+
 With this feature you can register assets with weight and unique names how allows to others plugins add others assets after or before any file
 
 The HTML response have a windows.we object with all client side functions and logic.

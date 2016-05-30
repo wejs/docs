@@ -6,6 +6,8 @@ Widgets may be created in plugins or projects
 
 All widgets is a instance of: https://github.com/wejs/we-core/blob/master/lib/class/Widget.js
 
+To enable widget feature install: **we-plugin-view** and **we-plugin-widget**
+
 ## Widget file structure:
 
 ```

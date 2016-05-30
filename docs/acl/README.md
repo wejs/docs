@@ -1,8 +1,10 @@
 # Access control list (ACL)
 
-Ready to use role-based access control (RBAC) feature from we-core-acl npm module.
+Role-based access control (RBAC) feature from we-core-acl npm module.
 
 Check if current user have access to one route based in roles and permissions
+
+Avaible in: **we-plugin-acl**
 
 ## How We.js ACL works?
 

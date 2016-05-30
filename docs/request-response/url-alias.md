@@ -2,9 +2,9 @@
 
 Override default express routes with custom routes for make slugs or clean urls and define model functions how automaticaly generate url alias for your records
 
-Avaible in we-core v0.3.98+
+Avaible in: [we-plugin-url-alias](https://github.com/wejs/we-plugin-url-alias)
 
-code: https://github.com/wejs/we-core/blob/master/lib/router/alias.js 
+Code: https://github.com/wejs/we-core/blob/master/lib/router/alias.js 
 
 ## Model url alias generator
 
@@ -16,7 +16,6 @@ Example:
 
 ```js
   // --- your modele file ...
-
       options: {
         // disable alias feature in this model set enableAlias to false
         // enableAlias: true, // default is true
@@ -38,6 +37,8 @@ Example:
 ## Url alias in admin
 
 Use the **/admin/urlAlias** page for manage all alias in your system
+
+Avaible with we-plugin-view
 
 ## Template helpers
 

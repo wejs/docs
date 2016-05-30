@@ -1,5 +1,7 @@
 # Plugin install and database update
 
+Plugin updates works like migrations and allows changes in database or other project data like uploaded files.
+
 Functions to run in `we update` and do changes in your projects
 
 ### Example file:

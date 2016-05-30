@@ -1,6 +1,6 @@
 # Models
 
-We.js model is a wrapper of sequelize models how allow one plugin change other plugin model
+We.js model is a wrapper of sequelize models and allows plugin changes with hooks in model definition before set it in sequelize.
 
 Related documentation in sequelize docs: http://docs.sequelizejs.com/en/latest/docs/models-definition/ 
 
@@ -9,9 +9,15 @@ Related documentation in sequelize docs: http://docs.sequelizejs.com/en/latest/d
 With we.js yeoman generator!
 
 ```sh
-yo wejs:model
-# then type your model name
+yo wejs:model post
 ```
+
+Or set model attribute in generation:
+
+```sh
+yo wejs:model post title:string:allowNull=false body:text published:boolean
+```
+
 
 ## Model example
 

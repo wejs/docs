@@ -2,7 +2,7 @@
 
 Lets make the blog project ...
 
-Install graphicsmagick dependency http://www.graphicsmagick.org/ (optional for we-plugin-file and blog project). Check in your package manager
+Install graphicsmagick dependency http://www.graphicsmagick.org/ (required for we-plugin-file and blog project). Check in your package manager
 
 With yeoman generator-wejs:
 

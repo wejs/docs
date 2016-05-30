@@ -12,7 +12,7 @@ Intall the dependencies and tools
 
 #### 1.1- Optional:
 
-* graphicsmagick http://www.graphicsmagick.org/ (optional for we-plugin-file and blog project) 
+* graphicsmagick http://www.graphicsmagick.org/ (optional for we-plugin-file) 
   * check in your package manager
 
 ### 2- Install we.js CLI and yeoman generator:

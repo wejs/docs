@@ -10,6 +10,8 @@ By default we.js has two kinds of themes, the **app** and **admin** theme.
 
 The admin theme will be used in /admin pages and the app theme will be used in other routes
 
+Avaible in: **we-plugin-view**
+
 ## HTML, layouts and regions
 
 Theme structure has one `html.hbs` and multiple `layouts` with `regions`

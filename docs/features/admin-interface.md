@@ -4,6 +4,8 @@ Administration interface to manage your project features and data
 
 Path in your we.js project: `/admin`.
 
+Is avaible with: [we-plugin-view](https://github.com/wejs/we-plugin-view)
+
 ### Users
 
 #### CRUD for users

@@ -2,6 +2,8 @@
 
 We.js theme is npm modules
 
+To enable theme feature install: **we-plugin-view**
+
 ## Installation
 
 ### Download:
