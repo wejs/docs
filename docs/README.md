@@ -1,11 +1,11 @@
 # We.js ;)
 
-We.js is a Node.js framework to build real-time applications, forums, sites, or blogs with extendable response format negotiation and plug-and-play (plugins) features such as themes, articles, or messenger for real-time systems
+We.js is a Node.js framework to build real-time applications or sites with plug-and-play features such as views, themes, articles, url alias ...
  
-Built-in support for HTML (default) and JSON responses, but you can make new response formats like XML or the we-plugin-csv plugin.
- 
-User, roles, and permissions!
-Built-in ACL strategy to protect user routes and more!
+Built-in support for JSON responses but you can make new response formats like XML or the [CSV plugin](https://github.com/wejs/we-plugin-csv)
+Views with theme system and HTML response is avaible in [we-plugin-view](https://github.com/wejs/we-plugin-view)
+
+Plugins ready to use for: [User](https://github.com/wejs/we-plugin-user), [ACL](https://github.com/wejs/we-plugin-acl), [authentication](https://github.com/wejs/we-plugin-auth)!
  
 ## Runs in
 
