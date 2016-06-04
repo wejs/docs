@@ -201,6 +201,10 @@
     "run-with-clustering-module": {
       "title": "run with cluster module",
       "file": "features/run-wejs-with-clustering.md"
+    },
+    "heroku": {
+      "title": "Heroku configuration",
+      "file": "PaaS/heroku.md"
     }
   }
 }
