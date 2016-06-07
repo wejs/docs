@@ -34,7 +34,7 @@ module.exports.upload = {
       // required for redirect from download url to S3 url
       isLocalStorage: false,
       // get file url from location
-      getUrlFromFile: function (format, file, done) {
+      getUrlFromFile: function (format, file) {
         // (optional) save extraData on create
         if (!file.extraData) file.extraData = file.s3
         // return the permanent file url for this format
@@ -98,3 +98,4 @@ module.exports.upload = {
   }
 }
 ```
+
