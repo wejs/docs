@@ -29,7 +29,6 @@ module.exports.upload = {
     //
     // - Generic file upload
     //
-
     s3File: {
       // required for redirect from download url to S3 url
       isLocalStorage: false,
@@ -98,4 +97,30 @@ module.exports.upload = {
   }
 }
 ```
+
+And update the route in **plugin.js** file:
+
+```js
+module.exports = function loadPlugin (projectPath, Plugin) {
+  var plugin = new Plugin(__dirname)
+
+  plugin.setRoutes({
+    // overiding we-plugin-file route:
+    'post /api/v1/file': {
+      upload: {
+        storageName: 's3File', // set storage name
+      }
+    },
+
+    'post /api/v1/image': {
+      upload: {
+        storageName: 's3Image',
+      }
+    }
+  })
+
+  return plugin
+}
+```
+
 
