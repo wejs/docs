@@ -1,9 +1,16 @@
 # File uploads
 
-See we-plugin-file: https://github.com/wejs/we-plugin-file
+First install the we-plugin-file: https://github.com/wejs/we-plugin-file
+
+```sh
+npm i --save we-plugin-file
+```
 
 ## Amazon s3 configuration example:
 
+Create the file: **config/upload.js** with:
+
+```js
 /**
  * Amazon S3 upload configuration example
  *
@@ -90,3 +97,4 @@ module.exports.upload = {
     }
   }
 }
+```
