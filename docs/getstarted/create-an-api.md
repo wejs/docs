@@ -74,5 +74,8 @@ we run
 
 In project folder tip:
 
+```sh
+yo wejs:doc
+```
 
 See [routes](https://wejs.org/docs/we/request-response.routes) documentation page for more information about routes and resources
