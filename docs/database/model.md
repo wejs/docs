@@ -28,6 +28,84 @@ With associations:
 yo wejs:model post title:string creator:belongsTo:user
 ```
 
+### Model Hooks
+
+Model hooks are simple functions how run in sequelize hooks
+
+Generate with yo wejs:modelHook:
+
+```sh
+yo wejs:modelHook modelHookName
+```
+
+folder: `server/models/hooks/`
+
+Example:
+
+```js
+/**
+ * model Hook
+ *
+ * @param  {Object}   record  sequelize record
+ * @param  {Object}   options sequelize Model options
+ * @param  {Function} done    callback
+ */
+module.exports = function (record, options, done) {
+  // do something with record or options,
+  // we is avaible in this.we
+  // for errors run done(err)
+  done();
+}
+```
+
+### Model instance methods
+
+Model instance are avaible in records 
+
+Generate with yo wejs:modelInstanceMethod:
+
+```sh
+yo wejs:modelInstanceMethod modelInstanceMethodName
+```
+
+folder: `server/models/instanceMethods/`
+
+Example:
+
+```js
+/**
+ * Instance methods
+ */
+module.exports = function () {
+  // record is: this
+  // do something ...
+}
+```
+
+### Model class methods
+
+Model class are avaible in model class in we.db.model[modelName].function 
+
+Generate with yo wejs:modelClassMethod:
+
+```sh
+yo wejs:modelClassMethod modelClassMethodName
+```
+
+folder: `server/models/classMethods/`
+
+Example:
+
+```js
+/**
+ * Class methods
+ */
+module.exports = function () {
+  // model class is: this
+  // do something ...
+}
+```
+
 ## Model example
 
 Example below is created with command:
@@ -60,8 +138,14 @@ Example file: `server/models/post.json`
     }
     
   },
+  "classMethods": {
+    "anyName": "modelClassMethodName"
+  },
+  "instanceMethods": {
+    "anyName": "modelInstanceMethodName"
+  },  
   "hooks": {
-    "afterCreate": []
+    "afterCreate": ["registerLog"]
   }
 }
 ```
