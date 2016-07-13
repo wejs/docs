@@ -64,13 +64,13 @@ post /post/:postId/delete
 
 ```
 
-## 3- Run the app in development mode
+## 3- Run project in development mode
 
 ```sh
 we run
 ```
 
-## 4- now lets make the Swagger documentation
+## 4- Make the Swagger documentation
 
 In project folder tip:
 
