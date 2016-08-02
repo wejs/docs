@@ -11,6 +11,12 @@ Login in heroku toolbelt
 
 ## Configuration:
 
+Install yeoman and the we.js generator if you haven't already
+```sh
+npm install -g yo
+npm install -g generator-wejs
+```
+
 Use the we.js generator to generate the heroku configuration:
 
 ```sh
