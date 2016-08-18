@@ -124,7 +124,8 @@ Example file: `server/models/post.json`
       "allowNull": false
     },
     "body": {
-      "type": "TEXT"
+      "type": "TEXT",
+      "skipSanitizer": true // skip model attribute sanitizer, use if you want store things like json data
     },
     "published": {
       "type": "BOOLEAN"
