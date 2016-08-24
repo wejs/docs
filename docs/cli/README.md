@@ -10,7 +10,16 @@ To see all commands after install we cli type `we` in your terminal
 npm install -g we
 ```
 
-## Avaible commands
+
+## Commands API
+
+On run `we` cli program the we.js will load all commands in commands/ folder in project and in all active plugins.
+
+Command file example: https://github.com/wejs/we-plugin-acl/blob/master/commands/acl_role_add.js
+
+Use this feature if you need to run custom commands with we.js features like database or email.
+
+## Commands avaible in we.js core:
 
 **Run we command to see all avaible commands and options**
 
