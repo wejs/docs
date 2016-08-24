@@ -17,6 +17,26 @@ Avaible in: **we-plugin-acl**
 
 ## Configuration
 
+Commands avaible in We.js cli:
+
+```
+acl:role:add [options] <roleName>                     Add one role if not exists
+acl:role:export [options]                             Export all project roles to file or log
+acl:role:permission:add|arpa <roleName> <permission>  Add one permission in role
+acl:role:permission:rm|arpr <roleName> <permission>   Remove one permission in role
+acl:role:rm <roleName>                                Remove one role, this dont remove system roles
+acl:user:role:add <userId> <roleName>                 Add one role in user
+acl:user:role:rm <userId> <roleName>                  Remove one role in user
+```
+
+Example, for add role administrator to user with id 1:
+
+```sh
+we acl:user:role:add 1 'administrator'
+```
+
+### With we-plugin-file
+
 ACL feature is disabled by default in your config/local.js file for fast project develo.pment
 
 file: *config/locals.js*
