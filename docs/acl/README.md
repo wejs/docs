@@ -35,8 +35,6 @@ Example, for add role administrator to user with id 1:
 we acl:user:role:add 1 'administrator'
 ```
 
-### With we-plugin-file
-
 ACL feature is disabled by default in your config/local.js file for fast project develo.pment
 
 file: *config/locals.js*
@@ -54,7 +52,7 @@ module.exports: {
 };
 ```
 
-## Permission management
+## Permission management with we-plugin-view
 
 We.js core have a administrative interface in **/admin/permissions** route for set role permissions and **admin/user/:userId/roles** for set user roles
 

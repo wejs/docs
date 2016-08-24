@@ -10,7 +10,6 @@ To see all commands after install we cli type `we` in your terminal
 npm install -g we
 ```
 
-
 ## Commands API
 
 On run `we` cli program the we.js will load all commands in commands/ folder in project and in all active plugins.
