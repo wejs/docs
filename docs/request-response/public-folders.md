@@ -14,7 +14,7 @@ If you put an `image.png` file inside the public folder, it will be acessible in
 
 ### If put in project public folder
 
-Will be accessible in url: `http://localhost:4000/project/public/`
+Will be accessible in url: `http://localhost:4000/public/project`
 
 ### If put in plugin public folder
 
