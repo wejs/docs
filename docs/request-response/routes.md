@@ -1,6 +1,6 @@
 # We.js router
 
-Router is build with Express.js and is compatible with all Express.js modules
+Router is built with Express.js and is compatible with Express.js modules
 
 Plugin or project routes is set in plugin.js files.
 
@@ -8,9 +8,9 @@ Plugin or project routes is set in plugin.js files.
 
 ### Simple route
 
-We have 2 forms to set routes in we.js:
+We have 2 ways to set routes in We.js:
 
-#### set with server/routes/*.json file
+#### 1- set with server/routes/*.json file
 
 Create a `server/routes/*.json` file inside your project or plugin then add your route as object like:
 
@@ -22,43 +22,47 @@ Create a `server/routes/*.json` file inside your project or plugin then add your
     controller: 'main',
     action: 'index',
     // // return user records
-    // // this is required for some responseTypes
+    // // this is required for some response formats like JSONApi 
     model: 'user',
   }
 }
 ```
 
-#### set inside one plugin.js file:
+#### 2- set inside one plugin.js file:
 
 ```js
-  // set plugin routes
+  // Set plugin routes
   plugin.setRoutes({
     // homepage | default home page
     'get /some-path': {
       // route controller and action is required
       controller: 'main',
       action: 'index',
-      // // return user records
-      // // this is required for some responseTypes
+      // return user records
+      // this is required for some response formats
       model: 'user',
-
-      // // custom template for this route, by default will use the [controller]/[action] as default template
-      //template   : 'home/index',
-      
-      // // custom layout for this route
-      // layoutName : 'fullwidth',
-    
       // // enforces a response format type
       // responseType  : 'json',
       
       // // permission name
       // // Set to true to skip ACL check
-      // permission    : 'find_user'     
+      // permission    : 'find_user',
+
+      // //
+      // // Settings with we-plugin-view and html response formats:
+      // //
+  
+      // // custom template for this route, by default will use [controller]/[action] as default template
+      //template: 'home/index',
+      
+      // // custom layout for this route 
+      // layoutName: 'fullwidth'
     }
   });
 ```
 
 ### Route title localization:
+
 ```js
   plugin.setRoutes({
     'get /some-path': {
@@ -76,7 +80,7 @@ Create a `server/routes/*.json` file inside your project or plugin then add your
 
 #### Set inside one plugin.js file
 
-Route resource will generate all routes for one resource:
+Route resource generate all routes for one resource:
 
 ```
 get /[name]/create
