@@ -104,6 +104,75 @@ plugin.hooks.on('we:after:routes:bind', function(we, done) {
 });
 ```
 
+#### EVENT router:route:after:cors:middleware
+Event run for every route with args: `{ we: we, middlewares: FNsMiddlewaresArray, config: routeConfig }` <br>
+Use for add one middleware after CORS
+
+```js
+plugin.events.on('router:route:after:cors:middleware', function(ctx) {
+  // ctx = { we: we, middlewares: FNsMiddlewaresArray, config: routeConfig };
+  // Example:
+  ctx.middlewares.push(function curstomMiddlewareAfterCORSMD(req, res, next){
+    console.log('Do something on curstomMiddlewareAfterCORSMD');
+  });
+});
+```
+
+
+#### EVENT router:route:after:cors:middleware
+Event run for every route with args: `{ we: we, middlewares: FNsMiddlewaresArray, config: routeConfig }` <br>
+Use for add one middleware after CORS
+
+```js
+plugin.events.on('router:route:after:cors:middleware', function(ctx) {
+  // ctx = { we: we, middlewares: FNsMiddlewaresArray, config: routeConfig };
+  // Example:
+  ctx.middlewares.push(function curstomMiddlewareAfterCORSMD(req, res, next){
+    console.log('Do something on curstomMiddlewareAfterCORSMD');
+  });
+});
+```
+
+#### EVENT router:add:acl:middleware
+Event run for every route with for set ACL or custom acl Middleware
+
+```js
+plugin.events.on('router:add:acl:middleware', function(ctx) {
+  // ctx = { we: we, middlewares: FNsMiddlewaresArray, config: routeConfig };
+  // Example:
+  ctx.middlewares.push(function curstomACLMiddleware(req, res, next){
+    console.log('Do something on curstomACLMiddleware');
+  });
+});
+```
+
+#### EVENT router:add:acl:middleware
+Event run for every route with for set ACL or custom acl Middleware
+
+```js
+plugin.events.on('router:add:acl:middleware', function(ctx) {
+  // ctx = { we: we, middlewares: FNsMiddlewaresArray, config: routeConfig };
+  // Example:
+  ctx.middlewares.push(function curstomACLMiddleware(req, res, next){
+    console.log('Do something on curstomACLMiddleware');
+  });
+});
+```
+
+#### EVENT router:before:set:controller:middleware
+
+Event run for every route before set controller middleware, use for custom data processing before every controller
+
+```js
+plugin.events.on('router:before:set:controller:middleware', function(ctx) {
+  // ctx = { we: we, middlewares: FNsMiddlewaresArray, config: routeConfig };
+  // Example:
+  ctx.middlewares.push(function curstomMiddlewareBeforeController(req, res, next){
+    console.log('Do something on curstomMiddlewareBeforeController');
+  });
+});
+```
+
 #### EVENT we:bootstrap:done
 ```js
 plugin.events.on('we:bootstrap:done', function(we) {
