@@ -22,4 +22,4 @@ If you have any problem in create a new project or feature, please send an feedb
 
 Now lets go and start the tutorial! 
 
-Use the **next** and **previus** buttons to advance to next projects
+Use the **next** and **previus** buttons to advance to next pages

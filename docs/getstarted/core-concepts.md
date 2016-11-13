@@ -28,31 +28,14 @@ Define your model attributes, joins, model hooks, and custom methods with sequel
 
 ## Custom response
 
-Response format is customizable, by default we have the HTML and JSON responses but you can extend or change in your `plugin.js` file
+Response format is customizable, by default we have the JSON and JSONApi response formats but you can add new formats or change in your `plugin.js` file.
+Example: if you request one page with `Accept: application/vnd.api+json` header will receive the data in JSONApi format.
 
 ## Permissions and ACL 
 
 Permissions feature and ACL based in `users -> roles -> permissions` how have a administrative page in `/admin/permissions`
 
 Avaible in: [we-plugin-acl](https://github.com/wejs/we-plugin-acl)
-
-## Theme
-
-A theme is responsible for visual, html and css of your project.
-
-Make themes for your project with html response content. By default we-plugin-view add suport to 2 themes, 1 for administration and 1 for app.
-
-Avaible in: [we-plugin-view](https://github.com/wejs/we-plugin-view)
-
-## Layouts, regions and widgets
-
-HTML response format have layouts, regions and widgets parts
-
-Define layouts and regions in your theme and then add widgets in regions of the page with widgets edit in place API
-
-Widget API is avaible for single page applications with API calls, use it to build dynamic dashboards or page blocks
-
-Avaible in: [we-plugin-widget](https://github.com/wejs/we-plugin-widget)
 
 ## Generators
 
