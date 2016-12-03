@@ -44,6 +44,10 @@
           "title": "Routes",
           "file": "request-response/routes.md"
         },
+        "limit-ordering": {
+          "title": "Order and limit in lists",
+          "file": "request-response/limit_ordering.md"
+        },
         "controllers": {
           "title": "Controllers",
           "file": "request-response/controlers.md"
