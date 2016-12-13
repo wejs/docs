@@ -31,13 +31,19 @@ module.exports = function helloWorld (program, helpers) {
   .option('-n, --name [someoneName]', '')
   .description('Log hello world in terminal with optional user name')
   .action(function run (roleName, opts) {
-    let we = helpers.getWe();
+    const we = helpers.getWe();
 
     if (opts.name) {
       we.log.info(`Hello world ${opts.name}!`);
     } else {
       we.log.info(`Hello world!`);
     }
+
+    // for use we.js models and database you need to bootstrap the project with:
+    we.bootstrap(()=>{
+      // we.db.models is fullfiled
+      // write all code how needs project or plugin resources
+    });    
   });
 };
 ```
