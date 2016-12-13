@@ -1,8 +1,8 @@
 # Command-line interface (CLI)
 
-Util tool for manage, get information, run small tasks in your We.js project
+Util tool for manage, get information and run small tasks in your We.js project.
 
-To see all commands after install we cli type `we` in your terminal
+To see all commands after install we cli type `we` in your terminal (after install we npm mobule globaly).
  
 ## Installation
 
@@ -12,11 +12,35 @@ npm install -g we
 
 ## Commands API
 
-On run `we` cli program the we.js will load all commands in commands/ folder in project and in all active plugins.
+On run `we` cli program the cli will load all commands in commands/ folder in project and in all installed plugins.
 
 Command file example: https://github.com/wejs/we-plugin-acl/blob/master/commands/acl_role_add.js
 
 Use this feature if you need to run custom commands with we.js features like database or email.
+
+```js
+/**
+ * Simple command to log "Hello world" in command line
+ * 
+ * @param  {Object} program program from command.js npm module
+ * @param  {Object} helpers we.js helpers, with methods like ".getWe()" that load return the we.js app instance
+ */
+module.exports = function helloWorld (program, helpers) {
+  program
+  .command('hello')
+  .option('-n, --name [someoneName]', '')
+  .description('Log hello world in terminal with optional user name')
+  .action(function run (roleName, opts) {
+    let we = helpers.getWe();
+
+    if (opts.name) {
+      we.log.info(`Hello world ${opts.name}!`);
+    } else {
+      we.log.info(`Hello world!`);
+    }
+  });
+};
+```
 
 ## Commands avaible in we.js core:
 
