@@ -104,7 +104,7 @@
           "title": "Field types",
           "file": "forms/field-type.md"
         },
-        "json": {
+        "json-form": {
           "title": "JSON form",
           "file": "forms/json-form.md"
         },
