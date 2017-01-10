@@ -106,7 +106,7 @@
         },
         "json": {
           "title": "JSON form",
-          "file": "forms/json.md"
+          "file": "forms/json-form.md"
         },
         "model": {
           "title": "Model form",
