@@ -12,9 +12,9 @@ Events and hooks is avaible in we object as `we.events` , `we.hooks` and plugin 
 
 this hooks and events run in we.js load ( bootstrap ) and startServer
 
-#### HOOK we:before:load:plugins
+#### HOOK we:before:load:plugin:features
 ```js
-plugin.hooks.on('we:before:load:plugins', function (we, done) {
+plugin.hooks.on('we:before:load:plugin:features', function (we, done) {
   // your code here ...
   
   done();
