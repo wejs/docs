@@ -9,4 +9,24 @@ Functions defined in controller is called actions and every route access a contr
 Single record routes have the record preloaded in context middleware and is avaible in controller as res.locals.record
 
 
-Example: https://github.com/wejs/we-core/blob/master/server/controllers/user.js
+Example: https://github.com/wejs/we-plugin-user/blob/master/server/controllers/user.js
+
+## How to comment controller actions?
+
+We.js generator reads all controler actions to generate swagger documentation and requires some comment attributes like, example:
+
+
+```
+  /**
+   * Find user action
+   *
+   * @apiName  user.find
+   * @apiGroup user
+   *
+   * @module Controller
+   *
+   * @apiParam {String} `username` Filter users by username
+   *
+   * @successResponse 200
+   */
+```
