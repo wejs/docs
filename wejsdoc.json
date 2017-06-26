@@ -4,211 +4,266 @@
   "pages": {
     "about": {
       "title": "About",
-      "file": "README.md"
+      "file": "README.md",
+      "description": "Text about We.js framework"
     },
     "getstarted": {
       "title": "Getting started",
       "file": "getstarted/README.md",
+      "description": "Getting started with We.js framework",
+
       "pages": {
         "core-concepts": {
           "title": "Core Concepts",
-          "file": "getstarted/core-concepts.md"
+          "file": "getstarted/core-concepts.md",
+          "description": "Core Concepts of We.js framework"
         },
         "installation": {
           "title": "Installation",
-          "file": "getstarted/installation.md"
+          "file": "getstarted/installation.md",
+          "description": "How to install the We.js framework and dependencies"
         },
         "create-an-api": {
           "title": "Create a simple resource API",
-          "file": "getstarted/create-an-api.md"
+          "file": "getstarted/create-an-api.md",
+          "description": "How to create a simple resource API with We.js framework"
         },
         "blog-project": {
           "title": "Generate a blog project",
-          "file": "getstarted/generate-blog-project.md"
+          "file": "getstarted/generate-blog-project.md",
+          "description": "How to generate a blog project with We.js framework"
         }
       }
     },
     "configuration": {
       "title": "Configuration",
-      "file": "features/configuration.md"
+      "file": "features/configuration.md",
+      "description": "We.js framework configurations for projects and plugins"
     },
     "request-response": {
       "title": "Router, request and response",
       "file": "request-response/README.md",
+      "description": "Router, request and response of We.js framework",
+
       "pages": {
         "requestlifecircle": {
           "title": "Request middlewares order",
-          "file": "request-response/requestlifecircle.md"
+          "file": "request-response/requestlifecircle.md",
+          "description": "Request middleware order and life circle of We.js framework"
         },
         "routes": {
           "title": "Routes",
-          "file": "request-response/routes.md"
+          "file": "request-response/routes.md",
+          "description": "Router and resources feature of We.js framework"
         },
         "limit-ordering": {
           "title": "Order and limit in lists",
-          "file": "request-response/limit_ordering.md"
+          "file": "request-response/limit_ordering.md",
+          "description": "Router find request order and limit in lists of We.js framework"
         },
         "controllers": {
           "title": "Controllers",
-          "file": "request-response/controlers.md"
+          "file": "request-response/controlers.md",
+          "description": "Router controller and actions of We.js framework"
         },
         "customresponse": {
           "title": "Responses",
-          "file": "request-response/customresponse.md"
+          "file": "request-response/customresponse.md",
+          "description": "Router response methods of We.js framework"
         },
         "responseformaters": {
           "title": "Response formaters",
-          "file": "request-response/responseformaters.md"
+          "file": "request-response/responseformaters.md",
+          "description": "Router response formaters of We.js framework"
         },
         "url-alias": {
           "title": "Url Alias",
-          "file": "request-response/url-alias.md"
+          "file": "request-response/url-alias.md",
+          "description": "Router url alias with we-plugin-url-alias in We.js projects"
         },
         "fileuploads": {
           "title": "File uploads",
-          "file": "request-response/fileuploads.md"
+          "file": "request-response/fileuploads.md",
+          "description": "File uploads with we-plugin-file in We.js projects"
         },
         "breadcrumb": {
           "title": "Breadcrumb API",
-          "file": "request-response/breadcrumb.md"
+          "file": "request-response/breadcrumb.md",
+          "description": "Breadcrumb API for html request and we-plugin-view in We.js projects"
         },
         "public-folders": {
           "title": "Public folders",
-          "file": "request-response/public-folders.md"
+          "file": "request-response/public-folders.md",
+          "description": "We.js project and plugin public folders API"
         }
       }
     },
     "database": {
       "title": "Database, ORM and sessions",
       "file": "database/README.md",
+      "description": "Database, ORM and sessions feature of We.js framework",
+
       "pages": {
         "model": {
           "title": "Model",
-          "file": "database/model.md"
+          "file": "database/model.md",
+          "description": "Database models in We.js framework project and plugins"
         },
         "updates-migrations": {
           "title": "Database updates",
-          "file": "database/updates-migrations.md"
+          "file": "database/updates-migrations.md",
+          "description": "Database updates in We.js framework project and plugins"
         },
         "session-store": {
           "title": "Session store",
-          "file": "database/session-store.md"
+          "file": "database/session-store.md",
+          "description": "Session stores in We.js framework project"
         }
       }
     },
     "forms": {
       "title": "Forms",
       "file": "forms/README.md",
+      "description": "Form API of we-plugin-form in We.js framework projects and plugins",
+
       "pages": {
         "field-types": {
           "title": "Field types",
-          "file": "forms/field-type.md"
+          "file": "forms/field-type.md",
+          "description": "Form field types API of we-plugin-form in We.js framework projects and plugins"
         },
         "json-form": {
           "title": "JSON form",
-          "file": "forms/json-form.md"
+          "file": "forms/json-form.md",
+          "description": "JSON Form API of we-plugin-form in We.js framework projects and plugins"
         },
         "model": {
           "title": "Model form",
-          "file": "forms/model.md"
+          "file": "forms/model.md",
+          "description": "Model form API of we-plugin-form in We.js framework projects and plugins"
         }
       }
     },
     "cli": {
       "title": "Command-line interface (CLI)",
-      "file": "cli/README.md"
+      "file": "cli/README.md",
+      "description": "Command-line interface (CLI) API in We.js framework projects and plugins"
     },
     "acl": {
       "title": "Access Control Lists (ACL)",
-      "file": "acl/README.md"
+      "file": "acl/README.md",
+      "description": "Access Control Lists (ACL) API in We.js framework projects and plugins"
     },
     "hooks-events": {
       "title": "Hooks and events",
-      "file": "features/hooks-and-events-order.md"
+      "file": "features/hooks-and-events-order.md",
+      "description": "Hooks and events in We.js framework projects and plugins"
     },
     "plugin": {
       "title": "Plugins",
       "file": "plugin/README.md",
+      "description": "We.js framework plugins, plug and play",
+
       "pages": {
         "style-sheet_client-javascript": {
           "title": "Style sheet and Javascript",
-          "file": "plugin/style-sheet_client-javascript.md"
+          "file": "plugin/style-sheet_client-javascript.md",
+          "description": "Style sheet and Javascript We.js framework plugins with we-plugin-view"
         },
         "create-new-plugin": {
           "title": "Create new plugin",
-          "file": "plugin/create-new-plugin.md"
+          "file": "plugin/create-new-plugin.md",
+          "description": "How to Create new We.js framework plugin"
         }
       }
     },
     "theming": {
       "title": "Theming",
       "file": "theming/README.md",
+      "description": "Theming We.js framework projects with we-plugin-view",
+
       "pages": {
         "create-new-theme": {
           "title": "Create new theme",
-          "file": "theming/create-new-theme.md"
+          "file": "theming/create-new-theme.md",
+          "description": "How to create new We.js framework theme"
         },
         "install-update": {
           "title": "Install and update",
-          "file": "theming/install-update.md"
+          "file": "theming/install-update.md",
+          "description": "Install and update We.js framework themes"
         },
         "helpers": {
           "title": "helpers",
-          "file": "theming/helpers.md"
+          "file": "theming/helpers.md",
+          "description": "Helpers in We.js framework themes with we-plugin-view"
         },
         "widgets": {
           "title": "Widget",
-          "file": "theming/widget.md"
+          "file": "theming/widget.md",
+          "description": "Widgets Helpers in We.js framework projects"
         }
       }
     },
     "internationalization": {
       "title": "Internationalization",
-      "file": "features/internationalization.md"
+      "file": "features/internationalization.md",
+      "description": "Internationalization of We.js framework projects"
     },
     "logging": {
       "title": "Logging",
-      "file": "features/logging.md"
+      "file": "features/logging.md",
+      "description": "Logging in We.js framework projects"
     },
     "admin": {
       "title": "Administrative interface",
-      "file": "features/admin-interface.md"
+      "file": "features/admin-interface.md",
+      "description": "Administrative interface in We.js framework projects with we-plugin-view"
     },
     "gulp-tasks": {
       "title": "Gulp tasks",
-      "file": "features/gulp-tasks.md"
+      "file": "features/gulp-tasks.md",
+      "description": "Gulp tasks in We.js framework projects with we-gulp-tasks-default"
     },
     "cron": {
       "title": "Cron tasks",
-      "file": "cron/README.md"
+      "file": "cron/README.md",
+      "description": "Cron tasks in We.js framework projects"
     },
     "testing": {
       "title": "Testing",
-      "file": "testing/README.md"
+      "file": "testing/README.md",
+      "description": "Testing We.js framework projects and plugins"
     },
     "security": {
       "title": "Security",
-      "file": "security/README.md"
+      "file": "security/README.md",
+      "description": "Security in We.js framework projects"
     },
     "filestructure": {
       "title": "File Structure",
-      "file": "filestructure/README.md"
+      "file": "filestructure/README.md",
+      "description": "We.js framework project and plugins file structure"
     },
     "web-servers": {
       "title": "Web servers and proxy",
-      "file": "web-servers/README.md"
+      "file": "web-servers/README.md",
+      "description": "Web servers and proxy configuration example for We.js framework projects"
     },
     "messages": {
       "title": "System messages",
-      "file": "messages/README.md"
+      "file": "messages/README.md",
+      "description": "System messages in We.js framework projects"
     },
     "run-with-clustering-module": {
       "title": "run with cluster module",
-      "file": "features/run-wejs-with-clustering.md"
+      "file": "features/run-wejs-with-clustering.md",
+      "description": "[Experimental] Running We.js projects with Node.js code cluster module in We.js framework projects"
     },
     "heroku": {
       "title": "Heroku configuration",
-      "file": "PaaS/heroku.md"
+      "file": "PaaS/heroku.md",
+      "description": "Heroku configuration for deploy We.js framework projects"
     }
   }
 }
