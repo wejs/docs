@@ -52,6 +52,15 @@ plugin.hooks.on('we:models:set:joins', function(we, done) {
 });
 ```
 
+#### HOOK we:models:ready
+Models is ready to use:
+```js
+plugin.hooks.on('we:models:ready', function(we, done) {
+  // your code here ...
+  done();
+});
+```
+
 #### EVENT we:after:load:controllers
 ```js
 plugin.events.on('we:after:load:controllers', function(we) {
@@ -337,5 +346,24 @@ plugin.events.on('we-html-body-end', function (data) {
   var html = data.html; // html text is avaible in html.text, this need be in object to use object attr pointer
   var we = data.we;
   var hbsHelperOptions = data.options; 
+});
+```
+## From we-plugin-db-settings
+we-plugin-db-settings adds suport for system settings changeble by system admins with API and propagate changes in all instances of same project.
+
+### HOOK system-settings:started
+On start db system settings:
+```js
+plugin.hooks.on('system-settings:started', function (we, done) {
+  // we.systemSettings is avaible here...
+  done();
+});
+```
+
+### EVENT system-settings:updated:after
+On update or add any system setting, this event is run on all instances of same project:
+```js
+plugin.events.on('system-settings:started', function (we) {
+  // we.systemSettings is avaible here...
 });
 ```
