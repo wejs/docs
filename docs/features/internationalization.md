@@ -1,6 +1,6 @@
 # i18n
 
-We.js have the i18n module ready to use which multi language suport. 
+We.js have the i18n build in feature ready to use which multi language suport.
 
 By default it run based on locales folder config/locales/ folder.
 
@@ -21,7 +21,10 @@ Use user profile settings as i18n locale
 
 ##### In controller:
 ```js
-req.__('string');
+req.__('string', {
+  var1: '',
+  var2: ''
+});
 ```
 
 ##### In template
