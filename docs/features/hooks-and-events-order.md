@@ -4,7 +4,7 @@ Hooks and events is the default extension inteface in we.js projects.
 
 Hooks have callbacks powered by **simple-hook-callback** and events is node.js EventListener instance
 
-Events and hooks is avaible in we object as `we.events` , `we.hooks` and plugin instance `plugin.events` and `plugin.hooks` 
+Events and hooks is avaible in we object as `we.events` , `we.hooks` and plugin instance `plugin.events` and `plugin.hooks`
 
 # List of core hooks and events ordered by execution:
 
@@ -16,7 +16,7 @@ this hooks and events run in we.js load ( bootstrap ) and startServer
 ```js
 plugin.hooks.on('we:before:load:plugin:features', function (we, done) {
   // your code here ...
-  
+
   done();
 });
 ```
@@ -318,6 +318,25 @@ plugin.hooks.on('we:before:send:deletedResponse', function (data, done) {
 ```
 
 ## On render HTML page
+Usefull events set in templates to change page html on each render
+
+### Event: we-html-head-start
+```js
+plugin.events.on('we-html-head-start', function (data) {
+  var html = data.html; // html text is avaible in html.text
+  var we = data.we;
+  var hbsHelperOptions = data.options;
+});
+```
+
+### Event: we-html-head-end
+```js
+plugin.events.on('we-html-head-end', function (data) {
+  var html = data.html; // html text is avaible in html.text
+  var we = data.we;
+  var hbsHelperOptions = data.options;
+});
+```
 
 ### Event: we-html-body-start
 
@@ -325,7 +344,7 @@ plugin.hooks.on('we:before:send:deletedResponse', function (data, done) {
 plugin.events.on('we-html-body-start', function (data) {
   var html = data.html; // html text is avaible in html.text, this need be in object to use object attr pointer
   var we = data.we;
-  var hbsHelperOptions = data.options; 
+  var hbsHelperOptions = data.options;
 });
 ```
 
@@ -345,7 +364,7 @@ plugin.events.on('we:config:getAppBootstrapConfig', function (data) {
 plugin.events.on('we-html-body-end', function (data) {
   var html = data.html; // html text is avaible in html.text, this need be in object to use object attr pointer
   var we = data.we;
-  var hbsHelperOptions = data.options; 
+  var hbsHelperOptions = data.options;
 });
 ```
 ## From we-plugin-db-settings
