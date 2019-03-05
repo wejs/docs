@@ -1,14 +1,12 @@
 # We.js theming
 
 Change the visual and structure of your project in html response (default response)
- 
+
 Themes can override default plugin templates to change html structures or CSS class
- 
+
 We.js theme is a npm module
 
-By default we.js has two kinds of themes, the **app** and **admin** theme.
-
-The admin theme will be used in /admin pages and the app theme will be used in other routes
+By default we.js has on kind of theme, the **app** theme but is possible to set themes for specific contexts like one theme for each user or each event.
 
 Avaible in: **we-plugin-view**
 
@@ -23,14 +21,14 @@ Inside the html.hbs you will add the `<html>`, `<head>` and `<body>` tags the as
 
 #### Asset helpers
 
-Template helpers where you will add 
+Template helpers where you will add
 ```hbs
 <head>
-  {{!-- render metadata tags --}}   
+  {{!-- render metadata tags --}}
   {{{render-metadata-tags}}}
   {{!-- render css head tags --}}
   {{{render-stylesheet-tags}}}
-  {{!-- render .js head tags like jquery --}}  
+  {{!-- render .js head tags like jquery --}}
   {{{render-javascript-tags 'header'}}}
 </head>
 <body>
@@ -51,7 +49,7 @@ Template helpers where you will add
 
 #### Layouts
 
-A layout is **.hbs** files defined in **theme.js** file and is rendered inside the **html.hbs** file. 
+A layout is **.hbs** files defined in **theme.js** file and is rendered inside the **html.hbs** file.
 
 To define one region inside layout template use:
 
@@ -77,7 +75,7 @@ We.js have a widget API and widgets may be get with this API for single page app
 
 Every theme have a theme.js file with configurations where you will define how layouts and regions will be avaible.
 
-#### Example: 
+#### Example:
 
 ```js
 module.exports = {

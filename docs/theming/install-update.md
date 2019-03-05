@@ -17,14 +17,18 @@ npm install [theme npm name]
 In your project:
 
 **File:** [project]/config/themes.js
-```js 
+```js
 module.exports.themes = {
     enabled: [
-      '[yout theme name]',
-      'we-theme-admin-default'
+      // load and enable in node_modules folder:
+      '[your theme name]',
+      // load and enable in custom folder:
+      {
+        name: '[your theme name]',
+        themeFolder: process.cwd()+'/server/themes/black-onepage-business-template'
+      }
     ],
-    app: '[yout theme name]',
-    admin: 'we-theme-admin-default'
+    app: '[your theme name]'
 };
 ```
 
