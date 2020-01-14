@@ -142,15 +142,15 @@ plugin.events.on('router:route:after:cors:middleware', function(ctx) {
 });
 ```
 
-#### EVENT router:add:acl:middleware
-Event run for every route with for set ACL or custom acl Middleware
+#### EVENT router:add:acl:middleware:before
+Event run for every route before set ACL Middlewares
 
 ```js
-plugin.events.on('router:add:acl:middleware', function(ctx) {
+plugin.events.on('router:add:acl:middleware:before', function(ctx) {
   // ctx = { we: we, middlewares: FNsMiddlewaresArray, config: routeConfig };
   // Example:
-  ctx.middlewares.push(function curstomACLMiddleware(req, res, next){
-    console.log('Do something on curstomACLMiddleware');
+  ctx.middlewares.push(function curstomMiddleware(req, res, next){
+    console.log('Do something before ACLMiddlewares');
   });
 });
 ```
@@ -164,6 +164,20 @@ plugin.events.on('router:add:acl:middleware', function(ctx) {
   // Example:
   ctx.middlewares.push(function curstomACLMiddleware(req, res, next){
     console.log('Do something on curstomACLMiddleware');
+  });
+});
+```
+
+#### EVENT router:add:acl:middleware:after
+Event run for every route after set ACL Middlewares
+
+```js
+plugin.events.on('router:add:acl:middleware:after', function(ctx) {
+  // ctx = { we: we, middlewares: FNsMiddlewaresArray, config: routeConfig };
+  // Example:
+  ctx.middlewares.push(function curstomMiddleware(req, res, next){
+    console.log('Do something after ACLMiddlewares');
+    // things like req.userRoleNames and req.user is set here
   });
 });
 ```
