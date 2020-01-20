@@ -260,6 +260,11 @@
       "file": "features/run-wejs-with-clustering.md",
       "description": "[Experimental] Running We.js projects with Node.js code cluster module in We.js framework projects"
     },
+    "utils": {
+      "title": "We.js utils and helper tools",
+      "file": "features/we.utils.md",
+      "description": "Some usefull tools comme with We.js"
+    },
     "heroku": {
       "title": "Heroku configuration",
       "file": "PaaS/heroku.md",

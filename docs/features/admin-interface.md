@@ -1,26 +1,5 @@
 # Administrative interface
 
-Administration interface to manage your project features and data
+DEPRECATED!
 
-Path in your we.js project: `/admin`.
-
-Is avaible with: [we-plugin-view](https://github.com/wejs/we-plugin-view)
-
-### Users
-
-#### CRUD for users
-
-![User management image](http://wejs.org/public/project/images/admin-interface-user.png "User management" width="100%")
-
-#### CRUD for roles:
-![Roles management image](http://wejs.org/public/project/images/admin-interface-role.png "Roles management")
-
-#### Change role permissions:
-
-![Permission management image](http://wejs.org/public/project/images/admin-interface-permission.png "Permission management")
-
-### Menu
-
-#### CRUD for menu and links:
-
-![Menu management image](http://wejs.org/public/project/images/admin-interface-menu.png "Menu management")
+Now administrative interface is indepent from we.js project, we provides some addons for ember.js apps https://github.com/wejs/we-admin but you are free to use any client side framework in your admin project.
