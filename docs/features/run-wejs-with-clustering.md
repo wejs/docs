@@ -2,6 +2,8 @@
 
 In we.js v1.0 you can run multiple instances of We.js using node.js Cluster module
 
+**Atention: This feature is usefull only for testes. For run multiple instances of your project use solutions like docker, pm2 or kubernetes**
+
 ### Change your app.js file to:
 
 ```js
