@@ -135,6 +135,8 @@ file `server/resources/admin.user.json`:
     // route namespage
     namespace: '/admin',
 
+    // parent: 'otherModelName',
+
     // set custom permission
     // permission: '[string]',
 
@@ -206,6 +208,32 @@ get /admin/user/:userId/delete
 post /admin/user/:userId/delete
 delete /admin/user/:userId
 ```
+
+###### With parent model:
+
+With this feature, req.params.postId is avaible for custom contexts and permissions:
+
+```js
+  plugin.setResource({
+    name: 'post',
+    parent: 'comment'
+  });
+```
+
+Will generate:
+
+| Method  | Path                                    |
+|---------|-----------------------------------------|
+| get     | /post/:postId/comment/create            |
+| get     | /post/:postId/comment                   |
+| get     | /post/:postId/comment/:commentId        |
+| get     | /post/:postId/comment/:commentId/edit   |
+| post    | /post/:postId/comment/:commentId/edit   |
+| put     | /post/:postId/comment/:commentId        |
+| patch   | /post/:postId/comment/:commentId        |
+| get     | /post/:postId/comment/:commentId/delete |
+| post    | /post/:postId/comment/:commentId/delete |
+| delete  | /post/:postId/comment/:commentId        |
 
 ## Links:
 
